@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SamacSys_Parts)(type Legacy)(uri H:/Projects/MicroBMS/MicroBMS/lib/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name S7B-XH-A_LF__SN_)(type Legacy)(uri H:/Projects/MicroBMS/MicroBMS/lib/S7B-XH-A_LF__SN_.lib)(options "")(descr ""))
+)
