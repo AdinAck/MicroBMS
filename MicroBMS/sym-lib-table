@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/lib/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name S7B-XH-A_LF__SN_)(type Legacy)(uri ${KIPRJMOD}/lib/S7B-XH-A_LF__SN_.lib)(options "")(descr ""))
+  (lib (name MicroBMS-rescue)(type Legacy)(uri ${KIPRJMOD}/MicroBMS-rescue.lib)(options "")(descr ""))
+)

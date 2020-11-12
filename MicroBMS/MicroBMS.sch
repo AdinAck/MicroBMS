@@ -1,0 +1,2715 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A1 33110 23386
+encoding utf-8
+Sheet 1 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:ATSAMD21G18A-AU IC10
+U 1 1 5F966B17
+P 20000 8900
+F 0 "IC10" H 20700 9950 50  0000 L CNN
+F 1 "ATSAMD21G18A-AU" H 20700 9850 50  0000 L CNN
+F 2 "QFP50P900X900X120-48N" H 19500 7050 50  0001 L CNN
+F 3 "" H 20700 9900 50  0001 L CNN
+F 4 "ATMEL - ATSAMD21G18A-AU - MCU, 32BIT, CORTEX-M0+, 48MHZ, TQFP-48" H 19500 6850 50  0001 L CNN "Description"
+F 5 "1.2" H 19500 6750 50  0001 L CNN "Height"
+F 6 "556-ATSAMD21G18A-AU" H 19500 6650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATSAMD21G18A-AU?qs=KLFHFgXTQiDh1vL0VLU76Q%3D%3D" H 19500 6550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Microchip" H 19500 6450 50  0001 L CNN "Manufacturer_Name"
+F 9 "ATSAMD21G18A-AU" H 19500 6350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    20000 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR045
+U 1 1 5F495863
+P 19150 8800
+F 0 "#PWR045" H 19150 8550 50  0001 C CNN
+F 1 "GNDREF" V 19155 8672 50  0000 R CNN
+F 2 "" H 19150 8800 50  0001 C CNN
+F 3 "" H 19150 8800 50  0001 C CNN
+	1    19150 8800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR047
+U 1 1 5F496F4A
+P 19950 10500
+F 0 "#PWR047" H 19950 10250 50  0001 C CNN
+F 1 "GNDREF" H 19955 10327 50  0000 C CNN
+F 2 "" H 19950 10500 50  0001 C CNN
+F 3 "" H 19950 10500 50  0001 C CNN
+	1    19950 10500
+	1    0    0    -1  
+$EndComp
+Text GLabel 18500 8900 0    50   Input ~ 0
+3v3
+Text GLabel 19850 10750 3    50   Input ~ 0
+3v3
+Text GLabel 20850 8400 2    50   Input ~ 0
+3v3
+$Comp
+L power:GNDREF #PWR049
+U 1 1 5F4983EB
+P 20850 8500
+F 0 "#PWR049" H 20850 8250 50  0001 C CNN
+F 1 "GNDREF" V 20855 8372 50  0000 R CNN
+F 2 "" H 20850 8500 50  0001 C CNN
+F 3 "" H 20850 8500 50  0001 C CNN
+	1    20850 8500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 19850 7600 1    50   Input ~ 0
+3v3
+$Comp
+L power:GNDREF #PWR048
+U 1 1 5F49B48E
+P 20050 7100
+F 0 "#PWR048" H 20050 6850 50  0001 C CNN
+F 1 "GNDREF" H 20055 6927 50  0000 C CNN
+F 2 "" H 20050 7100 50  0001 C CNN
+F 3 "" H 20050 7100 50  0001 C CNN
+	1    20050 7100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	19950 10300 19950 10500
+Wire Wire Line
+	20050 7100 20050 7600
+$Comp
+L SamacSys_Parts:06035A220JAT4A C15
+U 1 1 5F4C90CC
+P 18950 8100
+F 0 "C15" V 18996 7972 50  0000 R CNN
+F 1 "06035A220JAT4A" H 18650 7500 50  0001 L CNN
+F 2 "CAPC1608X90N" H 18650 7600 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf" H 18650 7500 50  0001 L CNN
+F 4 "AVX - 06035A220JAT4A - CERAMIC CAPACITOR 22PF 50V, C0G, 5%, 0603, FULL REEL" H 18650 7400 50  0001 L CNN "Description"
+F 5 "0.9" H 18650 7300 50  0001 L CNN "Height"
+F 6 "581-06035A220JAT4A" H 18650 7200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/AVX/06035A220JAT4A?qs=WmCxkUxNecQT6QFugq%2FgJA%3D%3D" H 18650 7100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 18650 7000 50  0001 L CNN "Manufacturer_Name"
+F 9 "06035A220JAT4A" H 18650 6900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "22 pF" V 18905 7972 50  0000 R CNN "Capacitance"
+	1    18950 8100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SamacSys_Parts:ABS07-166-32.768KHZ-T Y1
+U 1 1 5F4D66AA
+P 18600 7950
+F 0 "Y1" H 18750 7750 50  0000 C CNN
+F 1 "ABS07-166-32.768KHZ-T" H 18200 7350 50  0001 L CNN
+F 2 "ABS0716632768KHZT" H 18200 7450 50  0001 L CNN
+F 3 "https://abracon.com/datasheets/ABS07-166-32.768kHz-T.pdf" H 18200 7350 50  0001 L CNN
+F 4 "Crystal IOT 32.786KHz XTAL 10ppm" H 18200 7250 50  0001 L CNN "Description"
+F 5 "0.9" H 18200 7150 50  0001 L CNN "Height"
+F 6 "815-ABS0716632.768KT" H 18200 7050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ABRACON/ABS07-166-32768KHZ-T?qs=wUXugUrL1qwtX8DJsnJ8ag%3D%3D" H 18200 6950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ABRACON" H 18200 6850 50  0001 L CNN "Manufacturer_Name"
+F 9 "ABS07-166-32.768KHZ-T" H 18200 6750 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "32.768 kHz" H 18600 8200 50  0000 C CNN "Frequency"
+	1    18600 7950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SamacSys_Parts:06035A220JAT4A C11
+U 1 1 5F4DAA89
+P 18200 8100
+F 0 "C11" V 18250 8450 50  0000 R CNN
+F 1 "06035A220JAT4A" H 17900 7500 50  0001 L CNN
+F 2 "CAPC1608X90N" H 17900 7600 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf" H 17900 7500 50  0001 L CNN
+F 4 "AVX - 06035A220JAT4A - CERAMIC CAPACITOR 22PF 50V, C0G, 5%, 0603, FULL REEL" H 17900 7400 50  0001 L CNN "Description"
+F 5 "0.9" H 17900 7300 50  0001 L CNN "Height"
+F 6 "581-06035A220JAT4A" H 17900 7200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/AVX/06035A220JAT4A?qs=WmCxkUxNecQT6QFugq%2FgJA%3D%3D" H 17900 7100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 17900 7000 50  0001 L CNN "Manufacturer_Name"
+F 9 "06035A220JAT4A" H 17900 6900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "22 pF" V 18150 8450 50  0000 R CNN "Capacitance"
+	1    18200 8100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19150 8400 18950 8400
+Wire Wire Line
+	18950 8400 18950 8350
+Wire Wire Line
+	18950 8400 18650 8400
+Wire Wire Line
+	18650 8400 18650 8350
+Connection ~ 18950 8400
+Wire Wire Line
+	19150 8500 18550 8500
+Wire Wire Line
+	18550 8500 18550 8350
+Wire Wire Line
+	18550 8500 18200 8500
+Wire Wire Line
+	18200 8500 18200 8350
+Connection ~ 18550 8500
+$Comp
+L power:GNDREF #PWR044
+U 1 1 5F504889
+P 18950 7850
+F 0 "#PWR044" H 18950 7600 50  0001 C CNN
+F 1 "GNDREF" H 18955 7677 50  0000 C CNN
+F 2 "" H 18950 7850 50  0001 C CNN
+F 3 "" H 18950 7850 50  0001 C CNN
+	1    18950 7850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDREF #PWR040
+U 1 1 5F505163
+P 18200 7850
+F 0 "#PWR040" H 18200 7600 50  0001 C CNN
+F 1 "GNDREF" H 18205 7677 50  0000 C CNN
+F 2 "" H 18200 7850 50  0001 C CNN
+F 3 "" H 18200 7850 50  0001 C CNN
+	1    18200 7850
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:0603ZC105KAT2A C17
+U 1 1 5F5361E7
+P 19950 7350
+F 0 "C17" V 19996 7222 50  0000 R CNN
+F 1 "0603ZC105KAT2A" H 19650 6750 50  0001 L CNN
+F 2 "CAPC1608X90N" H 19650 6850 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/0603ZC105KAT2A.pdf" H 19650 6750 50  0001 L CNN
+F 4 "AVX - 0603ZC105KAT2A - CAP, MLCC, X7R, 1UF, 10V, 0603" H 19650 6650 50  0001 L CNN "Description"
+F 5 "0.9" H 19650 6550 50  0001 L CNN "Height"
+F 6 "581-0603ZC105KAT2A" H 19650 6450 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZC105KAT2A" H 19650 6350 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 19650 6250 50  0001 L CNN "Manufacturer_Name"
+F 9 "0603ZC105KAT2A" H 19650 6150 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "1 uF" V 19905 7222 50  0000 R CNN "Capacitance"
+	1    19950 7350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20050 7100 19950 7100
+Connection ~ 20050 7100
+$Comp
+L SamacSys_Parts:UJ2-MIBH2-4-SMT-TR J1
+U 1 1 5F5658B4
+P 14400 6050
+F 0 "J1" H 14400 6423 50  0000 C CNN
+F 1 "UJ2-MIBH2-4-SMT-TR" H 14100 5450 50  0001 L CNN
+F 2 "UJ2MIBH24SMTTR" H 14100 5550 50  0001 L CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/uj2-mibh2-4-smt.pdf" H 14100 5450 50  0001 L CNN
+F 4 "CONN RCPT USB2.0 MICRO B SMD R/A" H 14100 5350 50  0001 L CNN "Description"
+F 5 "2.5" H 14100 5250 50  0001 L CNN "Height"
+F 6 "490-UJ2-MIBH2-4-SMT" H 14100 5150 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/UJ2-MIBH2-4-SMT-TR?qs=5mqXD9RfOg1yxHIpPvPxvQ%3D%3D" H 14100 5050 50  0001 L CNN "Mouser Price/Stock"
+F 8 "CUI Devices" H 14100 4950 50  0001 L CNN "Manufacturer_Name"
+F 9 "UJ2-MIBH2-4-SMT-TR" H 14100 4850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    14400 6050
+	1    0    0    -1  
+$EndComp
+Text GLabel 20850 8700 2    50   BiDi ~ 0
+D-
+Text GLabel 20850 8600 2    50   BiDi ~ 0
+D+
+Text GLabel 14850 5950 2    50   BiDi ~ 0
+D+
+Text GLabel 14850 6050 2    50   BiDi ~ 0
+D-
+Text GLabel 14850 5850 2    50   Output ~ 0
+VBUS
+$Comp
+L power:GNDREF #PWR034
+U 1 1 5F569177
+P 14850 6250
+F 0 "#PWR034" H 14850 6000 50  0001 C CNN
+F 1 "GNDREF" V 14855 6122 50  0000 R CNN
+F 2 "" H 14850 6250 50  0001 C CNN
+F 3 "" H 14850 6250 50  0001 C CNN
+	1    14850 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SamacSys_Parts:SPX3819M5-L-3-3_TR IC9
+U 1 1 5F58AE28
+P 17400 6050
+F 0 "IC9" H 17400 6323 50  0000 C CNN
+F 1 "SPX3819M5-L-3-3_TR" H 17000 5450 50  0001 L CNN
+F 2 "SOT95P280X145-5N" H 17000 5550 50  0001 L CNN
+F 3 "https://www.exar.com/ds/spx3819.pdf" H 17000 5450 50  0001 L CNN
+F 4 "LDO Voltage Regulators 500mA LOW NOISE LDO" H 17000 5350 50  0001 L CNN "Description"
+F 5 "1.45" H 17000 5250 50  0001 L CNN "Height"
+F 6 "701-SPX3819M5-L-33TR" H 17000 5150 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/MaxLinear/SPX3819M5-L-3-3-TR?qs=S%2FCBhQS5rCp1Bb7a%252BD%2FCBQ%3D%3D" H 17000 5050 50  0001 L CNN "Mouser Price/Stock"
+F 8 "MaxLinear, Inc." H 17000 4950 50  0001 L CNN "Manufacturer_Name"
+F 9 "SPX3819M5-L-3-3/TR" H 17000 4850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    17400 6050
+	1    0    0    -1  
+$EndComp
+Text GLabel 18450 6050 2    50   Output ~ 0
+3v3
+$Comp
+L SamacSys_Parts:MBR120VLSFT3G D1
+U 1 1 5F599364
+P 16800 5650
+F 0 "D1" V 16800 5522 50  0000 R CNN
+F 1 "MBR120VLSFT3G" H 16500 5200 50  0001 L CNN
+F 2 "SODFL3616X98N" H 16500 5300 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF" H 16500 5200 50  0001 L CNN
+F 4 "ON SEMICONDUCTOR - MBR120VLSFT3G - SCHOTTKY RECT, 1A, 20V, SOD123" H 16500 5100 50  0001 L CNN "Description"
+F 5 "0.98" H 16500 5000 50  0001 L CNN "Height"
+F 6 "863-MBR120VLSFT3G" H 16500 4900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/MBR120VLSFT3G?qs=3JMERSakebrD2yr9jFliaA%3D%3D" H 16500 4800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 16500 4700 50  0001 L CNN "Manufacturer_Name"
+F 9 "MBR120VLSFT3G" H 16500 4600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    16800 5650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16800 5950 16000 5950
+Connection ~ 16800 5950
+Text GLabel 16000 5950 1    50   Input ~ 0
+VBUS
+$Comp
+L SamacSys_Parts:0603ZC105KAT2A C14
+U 1 1 5F5A7C99
+P 18650 8700
+F 0 "C14" H 18650 8550 50  0000 C CNN
+F 1 "0603ZC105KAT2A" H 18350 8100 50  0001 L CNN
+F 2 "CAPC1608X90N" H 18350 8200 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/0603ZC105KAT2A.pdf" H 18350 8100 50  0001 L CNN
+F 4 "AVX - 0603ZC105KAT2A - CAP, MLCC, X7R, 1UF, 10V, 0603" H 18350 8000 50  0001 L CNN "Description"
+F 5 "0.9" H 18350 7900 50  0001 L CNN "Height"
+F 6 "581-0603ZC105KAT2A" H 18350 7800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZC105KAT2A" H 18350 7700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 18350 7600 50  0001 L CNN "Manufacturer_Name"
+F 9 "0603ZC105KAT2A" H 18350 7500 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "1 uF" H 18650 8850 50  0000 C CNN "Capacitance"
+	1    18650 8700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	18900 8700 19150 8700
+$Comp
+L power:GNDREF #PWR041
+U 1 1 5F5B49D8
+P 18400 8700
+F 0 "#PWR041" H 18400 8450 50  0001 C CNN
+F 1 "GNDREF" V 18405 8572 50  0000 R CNN
+F 2 "" H 18400 8700 50  0001 C CNN
+F 3 "" H 18400 8700 50  0001 C CNN
+	1    18400 8700
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:0603ZD106KAT2A C10
+U 1 1 5F5CCF77
+P 18000 6300
+F 0 "C10" V 17954 6428 50  0000 L CNN
+F 1 "0603ZD106KAT2A" H 17700 5850 50  0001 L CNN
+F 2 "CAPC1608X90N" H 17700 5950 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/0603ZD106KAT2A.pdf" H 17700 5850 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X5R 0603 10%TOL" H 17700 5750 50  0001 L CNN "Description"
+F 5 "0.9" H 17700 5650 50  0001 L CNN "Height"
+F 6 "581-0603ZD106KAT2A" H 17700 5550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD106KAT2A" H 17700 5450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 17700 5350 50  0001 L CNN "Manufacturer_Name"
+F 9 "0603ZD106KAT2A" H 17700 5250 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "10 uF" V 18045 6428 50  0000 L CNN "Capacitance"
+	1    18000 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:0603ZC105KAT2A C12
+U 1 1 5F5D4F9A
+P 18450 6300
+F 0 "C12" V 18404 6428 50  0000 L CNN
+F 1 "0603ZC105KAT2A" H 18150 5700 50  0001 L CNN
+F 2 "CAPC1608X90N" H 18150 5800 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/0603ZC105KAT2A.pdf" H 18150 5700 50  0001 L CNN
+F 4 "AVX - 0603ZC105KAT2A - CAP, MLCC, X7R, 1UF, 10V, 0603" H 18150 5600 50  0001 L CNN "Description"
+F 5 "0.9" H 18150 5500 50  0001 L CNN "Height"
+F 6 "581-0603ZC105KAT2A" H 18150 5400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZC105KAT2A" H 18150 5300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 18150 5200 50  0001 L CNN "Manufacturer_Name"
+F 9 "0603ZC105KAT2A" H 18150 5100 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "1 uF" V 18495 6428 50  0000 L CNN "Capacitance"
+	1    18450 6300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18450 6050 18000 6050
+Connection ~ 18000 6050
+$Comp
+L power:GNDREF #PWR039
+U 1 1 5F5E1749
+P 18000 6550
+F 0 "#PWR039" H 18000 6300 50  0001 C CNN
+F 1 "GNDREF" H 18005 6377 50  0000 C CNN
+F 2 "" H 18000 6550 50  0001 C CNN
+F 3 "" H 18000 6550 50  0001 C CNN
+	1    18000 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR042
+U 1 1 5F5E2124
+P 18450 6550
+F 0 "#PWR042" H 18450 6300 50  0001 C CNN
+F 1 "GNDREF" H 18455 6377 50  0000 C CNN
+F 2 "" H 18450 6550 50  0001 C CNN
+F 3 "" H 18450 6550 50  0001 C CNN
+	1    18450 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R36
+U 1 1 5F5F0214
+P 16350 6150
+F 0 "R36" H 16350 6375 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 16100 5700 50  0001 L CNN
+F 2 "RESC1608X55N" H 16100 5800 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 16100 5700 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 16100 5600 50  0001 L CNN "Description"
+F 5 "0.55" H 16100 5500 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 16100 5400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 16100 5300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 16100 5200 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 16100 5100 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 16350 6284 50  0000 C CNN "Resistance"
+	1    16350 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16000 6150 16000 5950
+$Comp
+L SamacSys_Parts:0603ZD106KAT2A C8
+U 1 1 5F62F5AE
+P 16000 6400
+F 0 "C8" V 15954 6528 50  0000 L CNN
+F 1 "0603ZD106KAT2A" H 15700 5950 50  0001 L CNN
+F 2 "CAPC1608X90N" H 15700 6050 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/0603ZD106KAT2A.pdf" H 15700 5950 50  0001 L CNN
+F 4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X5R 0603 10%TOL" H 15700 5850 50  0001 L CNN "Description"
+F 5 "0.9" H 15700 5750 50  0001 L CNN "Height"
+F 6 "581-0603ZD106KAT2A" H 15700 5650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD106KAT2A" H 15700 5550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 15700 5450 50  0001 L CNN "Manufacturer_Name"
+F 9 "0603ZD106KAT2A" H 15700 5350 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "10 uF" V 16045 6528 50  0000 L CNN "Capacitance"
+	1    16000 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR037
+U 1 1 5F630FF2
+P 16000 6650
+F 0 "#PWR037" H 16000 6400 50  0001 C CNN
+F 1 "GNDREF" H 16005 6477 50  0000 C CNN
+F 2 "" H 16000 6650 50  0001 C CNN
+F 3 "" H 16000 6650 50  0001 C CNN
+	1    16000 6650
+	1    0    0    -1  
+$EndComp
+Text GLabel 19150 8600 0    50   Input ~ 0
+Cell1S
+Text GLabel 19150 9000 0    50   Input ~ 0
+Cell2S
+Text GLabel 19150 9100 0    50   Input ~ 0
+Cell3S
+Text GLabel 19150 9200 0    50   Input ~ 0
+Cell4S
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R10
+U 1 1 5F7200CC
+P 9000 8650
+F 0 "R10" H 9000 8875 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 8750 8200 50  0001 L CNN
+F 2 "RESC1608X55N" H 8750 8300 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 8750 8200 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 8750 8100 50  0001 L CNN "Description"
+F 5 "0.55" H 8750 8000 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 8750 7900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 8750 7800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 8750 7700 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 8750 7600 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 9000 8784 50  0000 C CNN "Resistance"
+	1    9000 8650
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:RT0603BRD0750KL R11
+U 1 1 5F720EBE
+P 9000 9350
+F 0 "R11" H 9000 9575 50  0000 C CNN
+F 1 "RT0603BRD0750KL" H 8700 8850 50  0001 L CNN
+F 2 "RESC1608X55N" H 8700 8950 50  0001 L CNN
+F 3 "" H 9550 9300 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" H 8700 8750 50  0001 L CNN "Description"
+F 5 "0.55" H 8700 8650 50  0001 L CNN "Height"
+F 6 "603-RT0603BRD0750KL" H 8700 8550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" H 8700 8450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 8700 8350 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0603BRD0750KL" H 8700 8250 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "50 kOhms" H 9000 9484 50  0000 C CNN "Resistance"
+	1    9000 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R6
+U 1 1 5F82F756
+P 8000 8650
+F 0 "R6" H 8000 8875 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 7750 8200 50  0001 L CNN
+F 2 "RESC1608X55N" H 7750 8300 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 7750 8200 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 7750 8100 50  0001 L CNN "Description"
+F 5 "0.55" H 7750 8000 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 7750 7900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 7750 7800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 7750 7700 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 7750 7600 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 8000 8784 50  0000 C CNN "Resistance"
+	1    8000 8650
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R7
+U 1 1 5F82FFE7
+P 8000 9350
+F 0 "R7" H 8000 9575 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 7750 8900 50  0001 L CNN
+F 2 "RESC1608X55N" H 7750 9000 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 7750 8900 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 7750 8800 50  0001 L CNN "Description"
+F 5 "0.55" H 7750 8700 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 7750 8600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 7750 8500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 7750 8400 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 7750 8300 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 8000 9484 50  0000 C CNN "Resistance"
+	1    8000 9350
+	0    1    1    0   
+$EndComp
+Text GLabel 8000 8300 1    50   Input ~ 0
+Cell2
+$Comp
+L power:GNDREF #PWR021
+U 1 1 5F832A40
+P 8000 9700
+F 0 "#PWR021" H 8000 9450 50  0001 C CNN
+F 1 "GNDREF" H 8005 9527 50  0000 C CNN
+F 2 "" H 8000 9700 50  0001 C CNN
+F 3 "" H 8000 9700 50  0001 C CNN
+	1    8000 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR023
+U 1 1 5F832E72
+P 9000 9700
+F 0 "#PWR023" H 9000 9450 50  0001 C CNN
+F 1 "GNDREF" H 9005 9527 50  0000 C CNN
+F 2 "" H 9000 9700 50  0001 C CNN
+F 3 "" H 9000 9700 50  0001 C CNN
+	1    9000 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R5
+U 1 1 5F83EAD0
+P 7500 10050
+F 0 "R5" H 7500 10275 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 7250 9600 50  0001 L CNN
+F 2 "RESC1608X55N" H 7250 9700 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 7250 9600 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 7250 9500 50  0001 L CNN "Description"
+F 5 "0.55" H 7250 9400 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 7250 9300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 7250 9200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 7250 9100 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 7250 9000 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 7500 10184 50  0000 C CNN "Resistance"
+	1    7500 10050
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:RT0603BRD0750KL R4
+U 1 1 5F83FE29
+P 7500 9350
+F 0 "R4" H 7500 9575 50  0000 C CNN
+F 1 "RT0603BRD0750KL" H 7200 8850 50  0001 L CNN
+F 2 "RESC1608X55N" H 7200 8950 50  0001 L CNN
+F 3 "" H 8050 9300 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" H 7200 8750 50  0001 L CNN "Description"
+F 5 "0.55" H 7200 8650 50  0001 L CNN "Height"
+F 6 "603-RT0603BRD0750KL" H 7200 8550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" H 7200 8450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 7200 8350 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0603BRD0750KL" H 7200 8250 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "50 kOhms" H 7500 9484 50  0000 C CNN "Resistance"
+	1    7500 9350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 9000 7500 9000
+$Comp
+L power:GNDREF #PWR020
+U 1 1 5F8561CA
+P 7500 10400
+F 0 "#PWR020" H 7500 10150 50  0001 C CNN
+F 1 "GNDREF" H 7505 10227 50  0000 C CNN
+F 2 "" H 7500 10400 50  0001 C CNN
+F 3 "" H 7500 10400 50  0001 C CNN
+	1    7500 10400
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 9700 0    50   Output ~ 0
+Cell2S
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R9
+U 1 1 5F8584C1
+P 8500 10050
+F 0 "R9" H 8500 10275 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 8250 9600 50  0001 L CNN
+F 2 "RESC1608X55N" H 8250 9700 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 8250 9600 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 8250 9500 50  0001 L CNN "Description"
+F 5 "0.55" H 8250 9400 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 8250 9300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 8250 9200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 8250 9100 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 8250 9000 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 8500 10184 50  0000 C CNN "Resistance"
+	1    8500 10050
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:RT0603BRD0750KL R8
+U 1 1 5F8584CE
+P 8500 9350
+F 0 "R8" H 8500 9575 50  0000 C CNN
+F 1 "RT0603BRD0750KL" H 8200 8850 50  0001 L CNN
+F 2 "RESC1608X55N" H 8200 8950 50  0001 L CNN
+F 3 "" H 9050 9300 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" H 8200 8750 50  0001 L CNN "Description"
+F 5 "0.55" H 8200 8650 50  0001 L CNN "Height"
+F 6 "603-RT0603BRD0750KL" H 8200 8550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" H 8200 8450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 8200 8350 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0603BRD0750KL" H 8200 8250 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "50 kOhms" H 8500 9484 50  0000 C CNN "Resistance"
+	1    8500 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR022
+U 1 1 5F8584D4
+P 8500 10400
+F 0 "#PWR022" H 8500 10150 50  0001 C CNN
+F 1 "GNDREF" H 8505 10227 50  0000 C CNN
+F 2 "" H 8500 10400 50  0001 C CNN
+F 3 "" H 8500 10400 50  0001 C CNN
+	1    8500 10400
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 9700 0    50   Output ~ 0
+Cell3S
+Wire Wire Line
+	8500 9000 9000 9000
+Text GLabel 9000 8300 1    50   Input ~ 0
+Cell3
+$Comp
+L SamacSys_Parts:RT0603BRD0750KL R16
+U 1 1 5F872377
+P 10000 9350
+F 0 "R16" H 10000 9575 50  0000 C CNN
+F 1 "RT0603BRD0750KL" H 9700 8850 50  0001 L CNN
+F 2 "RESC1608X55N" H 9700 8950 50  0001 L CNN
+F 3 "" H 10550 9300 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" H 9700 8750 50  0001 L CNN "Description"
+F 5 "0.55" H 9700 8650 50  0001 L CNN "Height"
+F 6 "603-RT0603BRD0750KL" H 9700 8550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" H 9700 8450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 9700 8350 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0603BRD0750KL" H 9700 8250 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "50 kOhms" H 10000 9484 50  0000 C CNN "Resistance"
+	1    10000 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR025
+U 1 1 5F87237D
+P 10000 9700
+F 0 "#PWR025" H 10000 9450 50  0001 C CNN
+F 1 "GNDREF" H 10005 9527 50  0000 C CNN
+F 2 "" H 10000 9700 50  0001 C CNN
+F 3 "" H 10000 9700 50  0001 C CNN
+	1    10000 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:RT0603BRD0750KL R21
+U 1 1 5F888609
+P 11000 9350
+F 0 "R21" H 11000 9575 50  0000 C CNN
+F 1 "RT0603BRD0750KL" H 10700 8850 50  0001 L CNN
+F 2 "RESC1608X55N" H 10700 8950 50  0001 L CNN
+F 3 "" H 11550 9300 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" H 10700 8750 50  0001 L CNN "Description"
+F 5 "0.55" H 10700 8650 50  0001 L CNN "Height"
+F 6 "603-RT0603BRD0750KL" H 10700 8550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" H 10700 8450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 10700 8350 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0603BRD0750KL" H 10700 8250 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "50 kOhms" H 11000 9484 50  0000 C CNN "Resistance"
+	1    11000 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR027
+U 1 1 5F88860F
+P 11000 9700
+F 0 "#PWR027" H 11000 9450 50  0001 C CNN
+F 1 "GNDREF" H 11005 9527 50  0000 C CNN
+F 2 "" H 11000 9700 50  0001 C CNN
+F 3 "" H 11000 9700 50  0001 C CNN
+	1    11000 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:RT0603BRD0750KL R27
+U 1 1 5F8B02D5
+P 12000 9350
+F 0 "R27" H 12000 9575 50  0000 C CNN
+F 1 "RT0603BRD0750KL" H 11700 8850 50  0001 L CNN
+F 2 "RESC1608X55N" H 11700 8950 50  0001 L CNN
+F 3 "" H 12550 9300 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" H 11700 8750 50  0001 L CNN "Description"
+F 5 "0.55" H 11700 8650 50  0001 L CNN "Height"
+F 6 "603-RT0603BRD0750KL" H 11700 8550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" H 11700 8450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 11700 8350 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0603BRD0750KL" H 11700 8250 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "50 kOhms" H 12000 9484 50  0000 C CNN "Resistance"
+	1    12000 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR029
+U 1 1 5F8B02DB
+P 12000 9700
+F 0 "#PWR029" H 12000 9450 50  0001 C CNN
+F 1 "GNDREF" H 12005 9527 50  0000 C CNN
+F 2 "" H 12000 9700 50  0001 C CNN
+F 3 "" H 12000 9700 50  0001 C CNN
+	1    12000 9700
+	1    0    0    -1  
+$EndComp
+Connection ~ 9000 9000
+Connection ~ 8000 9000
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R14
+U 1 1 5F940B6A
+P 10000 7950
+F 0 "R14" H 10000 8175 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 9750 7500 50  0001 L CNN
+F 2 "RESC1608X55N" H 9750 7600 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 9750 7500 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 9750 7400 50  0001 L CNN "Description"
+F 5 "0.55" H 9750 7300 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 9750 7200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 9750 7100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 9750 7000 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 9750 6900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 10000 8084 50  0000 C CNN "Resistance"
+	1    10000 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:RT0603BRD0750KL R15
+U 1 1 5F94254B
+P 10000 8650
+F 0 "R15" H 10000 8875 50  0000 C CNN
+F 1 "RT0603BRD0750KL" H 9700 8150 50  0001 L CNN
+F 2 "RESC1608X55N" H 9700 8250 50  0001 L CNN
+F 3 "" H 10550 8600 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" H 9700 8050 50  0001 L CNN "Description"
+F 5 "0.55" H 9700 7950 50  0001 L CNN "Height"
+F 6 "603-RT0603BRD0750KL" H 9700 7850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" H 9700 7750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 9700 7650 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0603BRD0750KL" H 9700 7550 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "50 kOhms" H 10000 8784 50  0000 C CNN "Resistance"
+	1    10000 8650
+	0    1    1    0   
+$EndComp
+Text GLabel 10000 7600 1    50   Input ~ 0
+Cell4
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R13
+U 1 1 5F94713C
+P 9500 10050
+F 0 "R13" H 9500 10275 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 9250 9600 50  0001 L CNN
+F 2 "RESC1608X55N" H 9250 9700 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 9250 9600 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 9250 9500 50  0001 L CNN "Description"
+F 5 "0.55" H 9250 9400 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 9250 9300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 9250 9200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 9250 9100 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 9250 9000 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 9500 10184 50  0000 C CNN "Resistance"
+	1    9500 10050
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:RT0603BRD0750KL R12
+U 1 1 5F947149
+P 9500 9350
+F 0 "R12" H 9500 9575 50  0000 C CNN
+F 1 "RT0603BRD0750KL" H 9200 8850 50  0001 L CNN
+F 2 "RESC1608X55N" H 9200 8950 50  0001 L CNN
+F 3 "" H 10050 9300 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" H 9200 8750 50  0001 L CNN "Description"
+F 5 "0.55" H 9200 8650 50  0001 L CNN "Height"
+F 6 "603-RT0603BRD0750KL" H 9200 8550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" H 9200 8450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 9200 8350 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0603BRD0750KL" H 9200 8250 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "50 kOhms" H 9500 9484 50  0000 C CNN "Resistance"
+	1    9500 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR024
+U 1 1 5F94714F
+P 9500 10400
+F 0 "#PWR024" H 9500 10150 50  0001 C CNN
+F 1 "GNDREF" H 9505 10227 50  0000 C CNN
+F 2 "" H 9500 10400 50  0001 C CNN
+F 3 "" H 9500 10400 50  0001 C CNN
+	1    9500 10400
+	1    0    0    -1  
+$EndComp
+Text GLabel 9500 9700 0    50   Output ~ 0
+Cell4S
+Wire Wire Line
+	9500 9000 10000 9000
+Connection ~ 10000 9000
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R20
+U 1 1 5F9681B2
+P 11000 8650
+F 0 "R20" H 11000 8875 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 10750 8200 50  0001 L CNN
+F 2 "RESC1608X55N" H 10750 8300 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 10750 8200 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 10750 8100 50  0001 L CNN "Description"
+F 5 "0.55" H 10750 8000 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 10750 7900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 10750 7800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 10750 7700 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 10750 7600 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 11000 8784 50  0000 C CNN "Resistance"
+	1    11000 8650
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R19
+U 1 1 5F9692E3
+P 11000 7950
+F 0 "R19" H 11000 8175 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 10750 7500 50  0001 L CNN
+F 2 "RESC1608X55N" H 10750 7600 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 10750 7500 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 10750 7400 50  0001 L CNN "Description"
+F 5 "0.55" H 10750 7300 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 10750 7200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 10750 7100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 10750 7000 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 10750 6900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 11000 8084 50  0000 C CNN "Resistance"
+	1    11000 7950
+	0    1    1    0   
+$EndComp
+Text GLabel 11000 7600 1    50   Input ~ 0
+Cell5
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R18
+U 1 1 5F96D322
+P 10500 10050
+F 0 "R18" H 10500 10275 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 10250 9600 50  0001 L CNN
+F 2 "RESC1608X55N" H 10250 9700 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 10250 9600 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 10250 9500 50  0001 L CNN "Description"
+F 5 "0.55" H 10250 9400 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 10250 9300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 10250 9200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 10250 9100 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 10250 9000 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 10500 10184 50  0000 C CNN "Resistance"
+	1    10500 10050
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:RT0603BRD0750KL R17
+U 1 1 5F96D32F
+P 10500 9350
+F 0 "R17" H 10500 9575 50  0000 C CNN
+F 1 "RT0603BRD0750KL" H 10200 8850 50  0001 L CNN
+F 2 "RESC1608X55N" H 10200 8950 50  0001 L CNN
+F 3 "" H 11050 9300 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" H 10200 8750 50  0001 L CNN "Description"
+F 5 "0.55" H 10200 8650 50  0001 L CNN "Height"
+F 6 "603-RT0603BRD0750KL" H 10200 8550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" H 10200 8450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 10200 8350 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0603BRD0750KL" H 10200 8250 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "50 kOhms" H 10500 9484 50  0000 C CNN "Resistance"
+	1    10500 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR026
+U 1 1 5F96D335
+P 10500 10400
+F 0 "#PWR026" H 10500 10150 50  0001 C CNN
+F 1 "GNDREF" H 10505 10227 50  0000 C CNN
+F 2 "" H 10500 10400 50  0001 C CNN
+F 3 "" H 10500 10400 50  0001 C CNN
+	1    10500 10400
+	1    0    0    -1  
+$EndComp
+Text GLabel 10500 9700 0    50   Output ~ 0
+Cell5S
+Wire Wire Line
+	11000 9000 10500 9000
+Connection ~ 11000 9000
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R26
+U 1 1 5F98E6E6
+P 12000 8650
+F 0 "R26" H 12000 8875 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 11750 8200 50  0001 L CNN
+F 2 "RESC1608X55N" H 11750 8300 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 11750 8200 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 11750 8100 50  0001 L CNN "Description"
+F 5 "0.55" H 11750 8000 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 11750 7900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 11750 7800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 11750 7700 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 11750 7600 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 12000 8784 50  0000 C CNN "Resistance"
+	1    12000 8650
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R25
+U 1 1 5F98F4FB
+P 12000 7950
+F 0 "R25" H 12000 8175 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 11750 7500 50  0001 L CNN
+F 2 "RESC1608X55N" H 11750 7600 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 11750 7500 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 11750 7400 50  0001 L CNN "Description"
+F 5 "0.55" H 11750 7300 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 11750 7200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 11750 7100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 11750 7000 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 11750 6900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 12000 8084 50  0000 C CNN "Resistance"
+	1    12000 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:RT0603BRD0750KL R24
+U 1 1 5F9901AC
+P 12000 7250
+F 0 "R24" H 12000 7475 50  0000 C CNN
+F 1 "RT0603BRD0750KL" H 11700 6750 50  0001 L CNN
+F 2 "RESC1608X55N" H 11700 6850 50  0001 L CNN
+F 3 "" H 12550 7200 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" H 11700 6650 50  0001 L CNN "Description"
+F 5 "0.55" H 11700 6550 50  0001 L CNN "Height"
+F 6 "603-RT0603BRD0750KL" H 11700 6450 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" H 11700 6350 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 11700 6250 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0603BRD0750KL" H 11700 6150 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "50 kOhms" H 12000 7384 50  0000 C CNN "Resistance"
+	1    12000 7250
+	0    1    1    0   
+$EndComp
+Text GLabel 12000 6900 1    50   Input ~ 0
+Cell6
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R23
+U 1 1 5F993C87
+P 11500 10050
+F 0 "R23" H 11500 10275 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 11250 9600 50  0001 L CNN
+F 2 "RESC1608X55N" H 11250 9700 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 11250 9600 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 11250 9500 50  0001 L CNN "Description"
+F 5 "0.55" H 11250 9400 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 11250 9300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 11250 9200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 11250 9100 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 11250 9000 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 11500 10184 50  0000 C CNN "Resistance"
+	1    11500 10050
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:RT0603BRD0750KL R22
+U 1 1 5F993C94
+P 11500 9350
+F 0 "R22" H 11500 9575 50  0000 C CNN
+F 1 "RT0603BRD0750KL" H 11200 8850 50  0001 L CNN
+F 2 "RESC1608X55N" H 11200 8950 50  0001 L CNN
+F 3 "" H 12050 9300 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" H 11200 8750 50  0001 L CNN "Description"
+F 5 "0.55" H 11200 8650 50  0001 L CNN "Height"
+F 6 "603-RT0603BRD0750KL" H 11200 8550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" H 11200 8450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 11200 8350 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0603BRD0750KL" H 11200 8250 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "50 kOhms" H 11500 9484 50  0000 C CNN "Resistance"
+	1    11500 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR028
+U 1 1 5F993C9A
+P 11500 10400
+F 0 "#PWR028" H 11500 10150 50  0001 C CNN
+F 1 "GNDREF" H 11505 10227 50  0000 C CNN
+F 2 "" H 11500 10400 50  0001 C CNN
+F 3 "" H 11500 10400 50  0001 C CNN
+	1    11500 10400
+	1    0    0    -1  
+$EndComp
+Text GLabel 11500 9700 0    50   Output ~ 0
+Cell6S
+Wire Wire Line
+	12000 9000 11500 9000
+Connection ~ 12000 9000
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R3
+U 1 1 5F9FA5C6
+P 7000 10050
+F 0 "R3" H 7000 10275 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 6750 9600 50  0001 L CNN
+F 2 "RESC1608X55N" H 6750 9700 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 6750 9600 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 6750 9500 50  0001 L CNN "Description"
+F 5 "0.55" H 6750 9400 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 6750 9300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 6750 9200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 6750 9100 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 6750 9000 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 7000 10184 50  0000 C CNN "Resistance"
+	1    7000 10050
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:RT0603BRD0750KL R2
+U 1 1 5F9FA5D3
+P 7000 9350
+F 0 "R2" H 7000 9575 50  0000 C CNN
+F 1 "RT0603BRD0750KL" H 6700 8850 50  0001 L CNN
+F 2 "RESC1608X55N" H 6700 8950 50  0001 L CNN
+F 3 "" H 7550 9300 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" H 6700 8750 50  0001 L CNN "Description"
+F 5 "0.55" H 6700 8650 50  0001 L CNN "Height"
+F 6 "603-RT0603BRD0750KL" H 6700 8550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" H 6700 8450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 6700 8350 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0603BRD0750KL" H 6700 8250 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "50 kOhms" H 7000 9484 50  0000 C CNN "Resistance"
+	1    7000 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR019
+U 1 1 5F9FA5D9
+P 7000 10400
+F 0 "#PWR019" H 7000 10150 50  0001 C CNN
+F 1 "GNDREF" H 7005 10227 50  0000 C CNN
+F 2 "" H 7000 10400 50  0001 C CNN
+F 3 "" H 7000 10400 50  0001 C CNN
+	1    7000 10400
+	1    0    0    -1  
+$EndComp
+Text GLabel 7000 9700 0    50   Output ~ 0
+Cell1S
+Text GLabel 7000 9000 1    50   Input ~ 0
+Cell1
+$Comp
+L power:GNDREF #PWR032
+U 1 1 5FAC53D7
+P 13950 5850
+F 0 "#PWR032" H 13950 5600 50  0001 C CNN
+F 1 "GNDREF" V 13955 5722 50  0000 R CNN
+F 2 "" H 13950 5850 50  0001 C CNN
+F 3 "" H 13950 5850 50  0001 C CNN
+	1    13950 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13950 5850 13950 5950
+Connection ~ 13950 5850
+Connection ~ 13950 5950
+Wire Wire Line
+	13950 5950 13950 6050
+Connection ~ 13950 6050
+Wire Wire Line
+	13950 6050 13950 6150
+Text Label 2200 8200 0    50   ~ 0
+Cell6
+Text Label 2200 8300 0    50   ~ 0
+Cell5
+Text Label 2200 8400 0    50   ~ 0
+Cell4
+Text Label 2200 8500 0    50   ~ 0
+Cell3
+Text Label 2200 8600 0    50   ~ 0
+Cell2
+Text Label 2200 8700 0    50   ~ 0
+Cell1
+$Comp
+L S7B-XH-A_LF__SN_:S7B-XH-A(LF)(SN) P1
+U 1 1 5F38A60B
+P 2000 8500
+F 0 "P1" H 2200 8450 50  0000 C CNN
+F 1 "S7B-XH-A(LF)(SN)" H 2500 8550 50  0000 C CNN
+F 2 "JST_S7B-XH-A(LF)(SN)" H 1900 7900 50  0001 L BNN
+F 3 "https://www.digikey.com/product-detail/en/S7B-XH-A(LF)(SN)/455-2240-ND/1651038/?itemSeq=335468740" H 2450 8500 50  0001 L BNN
+	1    2000 8500
+	-1   0    0    1   
+$EndComp
+$Sheet
+S 3700 12450 600  400 
+U 5F410C24
+F0 "Switch1" 50
+F1 "Switch.sch" 50
+F2 "VSS" I L 3700 12750 50 
+F3 "Vc" I R 4300 12750 50 
+F4 "S1" B R 4300 12550 50 
+F5 "S0" B L 3700 12550 50 
+$EndSheet
+$Sheet
+S 3700 11700 600  400 
+U 5F45A045
+F0 "Switch2" 50
+F1 "Switch.sch" 50
+F2 "VSS" I L 3700 12000 50 
+F3 "Vc" I R 4300 12000 50 
+F4 "S1" B R 4300 11800 50 
+F5 "S0" B L 3700 11800 50 
+$EndSheet
+$Comp
+L SamacSys_Parts:RT0603BRD0750KL R33
+U 1 1 5F46AE18
+P 13000 9350
+F 0 "R33" H 13000 9575 50  0000 C CNN
+F 1 "RT0603BRD0750KL" H 12700 8850 50  0001 L CNN
+F 2 "RESC1608X55N" H 12700 8950 50  0001 L CNN
+F 3 "" H 13550 9300 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" H 12700 8750 50  0001 L CNN "Description"
+F 5 "0.55" H 12700 8650 50  0001 L CNN "Height"
+F 6 "603-RT0603BRD0750KL" H 12700 8550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" H 12700 8450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 12700 8350 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0603BRD0750KL" H 12700 8250 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "50 kOhms" H 13000 9484 50  0000 C CNN "Resistance"
+	1    13000 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR031
+U 1 1 5F46AE1E
+P 13000 9700
+F 0 "#PWR031" H 13000 9450 50  0001 C CNN
+F 1 "GNDREF" H 13005 9527 50  0000 C CNN
+F 2 "" H 13000 9700 50  0001 C CNN
+F 3 "" H 13000 9700 50  0001 C CNN
+	1    13000 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R32
+U 1 1 5F46AE2B
+P 13000 8650
+F 0 "R32" H 13000 8875 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 12750 8200 50  0001 L CNN
+F 2 "RESC1608X55N" H 12750 8300 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 12750 8200 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 12750 8100 50  0001 L CNN "Description"
+F 5 "0.55" H 12750 8000 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 12750 7900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 12750 7800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 12750 7700 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 12750 7600 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 13000 8784 50  0000 C CNN "Resistance"
+	1    13000 8650
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R31
+U 1 1 5F46AE38
+P 13000 7950
+F 0 "R31" H 13000 8175 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 12750 7500 50  0001 L CNN
+F 2 "RESC1608X55N" H 12750 7600 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 12750 7500 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 12750 7400 50  0001 L CNN "Description"
+F 5 "0.55" H 12750 7300 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 12750 7200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 12750 7100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 12750 7000 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 12750 6900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 13000 8084 50  0000 C CNN "Resistance"
+	1    13000 7950
+	0    1    1    0   
+$EndComp
+Text GLabel 13000 6900 1    50   Input ~ 0
+Cell7
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R29
+U 1 1 5F46AE53
+P 12500 10050
+F 0 "R29" H 12500 10275 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 12250 9600 50  0001 L CNN
+F 2 "RESC1608X55N" H 12250 9700 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 12250 9600 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 12250 9500 50  0001 L CNN "Description"
+F 5 "0.55" H 12250 9400 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 12250 9300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 12250 9200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 12250 9100 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 12250 9000 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 12500 10184 50  0000 C CNN "Resistance"
+	1    12500 10050
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:RT0603BRD0750KL R28
+U 1 1 5F46AE60
+P 12500 9350
+F 0 "R28" H 12500 9575 50  0000 C CNN
+F 1 "RT0603BRD0750KL" H 12200 8850 50  0001 L CNN
+F 2 "RESC1608X55N" H 12200 8950 50  0001 L CNN
+F 3 "" H 13050 9300 50  0001 L CNN
+F 4 "Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision" H 12200 8750 50  0001 L CNN "Description"
+F 5 "0.55" H 12200 8650 50  0001 L CNN "Height"
+F 6 "603-RT0603BRD0750KL" H 12200 8550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RT0603BRD0750KL?qs=qpJ%252B%252B%252Bdg6p2%2FJCmrad8NSA%3D%3D" H 12200 8450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 12200 8350 50  0001 L CNN "Manufacturer_Name"
+F 9 "RT0603BRD0750KL" H 12200 8250 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "50 kOhms" H 12500 9484 50  0000 C CNN "Resistance"
+	1    12500 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR030
+U 1 1 5F46AE66
+P 12500 10400
+F 0 "#PWR030" H 12500 10150 50  0001 C CNN
+F 1 "GNDREF" H 12505 10227 50  0000 C CNN
+F 2 "" H 12500 10400 50  0001 C CNN
+F 3 "" H 12500 10400 50  0001 C CNN
+	1    12500 10400
+	1    0    0    -1  
+$EndComp
+Text GLabel 12500 9700 0    50   Output ~ 0
+Cell7S
+Wire Wire Line
+	13000 9000 12500 9000
+Connection ~ 13000 9000
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R30
+U 1 1 5F46B20B
+P 13000 7250
+F 0 "R30" H 13000 7475 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 12750 6800 50  0001 L CNN
+F 2 "RESC1608X55N" H 12750 6900 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 12750 6800 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 12750 6700 50  0001 L CNN "Description"
+F 5 "0.55" H 12750 6600 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 12750 6500 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 12750 6400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 12750 6300 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 12750 6200 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 kOhms" H 13000 7384 50  0000 C CNN "Resistance"
+	1    13000 7250
+	0    1    1    0   
+$EndComp
+$Sheet
+S 3700 10950 600  400 
+U 5F47165A
+F0 "Switch3" 50
+F1 "Switch.sch" 50
+F2 "VSS" I L 3700 11250 50 
+F3 "Vc" I R 4300 11250 50 
+F4 "S1" B R 4300 11050 50 
+F5 "S0" B L 3700 11050 50 
+$EndSheet
+$Comp
+L power:GNDREF #PWR01
+U 1 1 5F488E07
+P 2200 8800
+F 0 "#PWR01" H 2200 8550 50  0001 C CNN
+F 1 "GNDREF" V 2205 8672 50  0000 R CNN
+F 2 "" H 2200 8800 50  0001 C CNN
+F 3 "" H 2200 8800 50  0001 C CNN
+	1    2200 8800
+	0    -1   -1   0   
+$EndComp
+$Sheet
+S 3700 10200 600  400 
+U 5F472F0A
+F0 "Switch4" 50
+F1 "Switch.sch" 50
+F2 "VSS" I L 3700 10500 50 
+F3 "Vc" I R 4300 10500 50 
+F4 "S1" B R 4300 10300 50 
+F5 "S0" B L 3700 10300 50 
+$EndSheet
+$Sheet
+S 3700 7150 600  400 
+U 5F478A7A
+F0 "Switch8" 50
+F1 "Switch.sch" 50
+F2 "VSS" I L 3700 7450 50 
+F3 "Vc" I R 4300 7450 50 
+F4 "S1" B R 4300 7250 50 
+F5 "S0" B L 3700 7250 50 
+$EndSheet
+$Sheet
+S 3700 7900 600  400 
+U 5F478A6E
+F0 "Switch7" 50
+F1 "Switch.sch" 50
+F2 "VSS" I L 3700 8200 50 
+F3 "Vc" I R 4300 8200 50 
+F4 "S1" B R 4300 8000 50 
+F5 "S0" B L 3700 8000 50 
+$EndSheet
+$Sheet
+S 3700 8700 600  400 
+U 5F478A5C
+F0 "Switch6" 50
+F1 "Switch.sch" 50
+F2 "VSS" I L 3700 9000 50 
+F3 "Vc" I R 4300 9000 50 
+F4 "S1" B R 4300 8800 50 
+F5 "S0" B L 3700 8800 50 
+$EndSheet
+$Sheet
+S 3700 9450 600  400 
+U 5F478A56
+F0 "Switch5" 50
+F1 "Switch.sch" 50
+F2 "VSS" I L 3700 9750 50 
+F3 "Vc" I R 4300 9750 50 
+F4 "S1" B R 4300 9550 50 
+F5 "S0" B L 3700 9550 50 
+$EndSheet
+$Comp
+L SamacSys_Parts:PMV90ENE Q1
+U 1 1 5F4DD5C0
+P 4000 13250
+F 0 "Q1" V 3954 13388 50  0000 L CNN
+F 1 "PMV90ENE" V 4045 13388 50  0000 L CNN
+F 2 "SamacSys_Parts:SOT95P230X110-3N" H 4000 12950 50  0001 C CNN
+F 3 "" H 4000 13500 50  0001 C CNN
+	1    4000 13250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR02
+U 1 1 5F4DF6BA
+P 3300 13050
+F 0 "#PWR02" H 3300 12800 50  0001 C CNN
+F 1 "GNDREF" V 3305 12922 50  0000 R CNN
+F 2 "" H 3300 13050 50  0001 C CNN
+F 3 "" H 3300 13050 50  0001 C CNN
+	1    3300 13050
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:ERJ-3GEYJ203V R1
+U 1 1 5F4E0997
+P 3650 13450
+F 0 "R1" H 3650 13675 50  0000 C CNN
+F 1 "ERJ-3GEYJ203V" H 3500 13550 50  0001 L CNN
+F 2 "RESC1608X55N" H 3350 13200 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/ERJ-3GEYJ203V.pdf" H 3350 13100 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 20Kohms 5% AEC-Q200" H 3350 13000 50  0001 L CNN "Description"
+F 5 "0.55" H 3350 12900 50  0001 L CNN "Height"
+F 6 "667-ERJ-3GEYJ203V" H 3350 12800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-3GEYJ203V" H 3350 12700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 3350 12600 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3GEYJ203V" H 3350 12500 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "20 k" H 3650 13584 50  0000 C CNN "Resistance"
+	1    3650 13450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 13050 3300 13450
+Wire Wire Line
+	3300 13050 3950 13050
+Connection ~ 3300 13050
+Wire Wire Line
+	4050 13050 4400 13050
+Connection ~ 4000 13450
+$Comp
+L SamacSys_Parts:LTV-207 IC4
+U 1 1 5F4F3DCF
+P 5300 8500
+F 0 "IC4" H 5300 8915 50  0000 C CNN
+F 1 "LTV-207" H 5300 8824 50  0000 C CNN
+F 2 "SOIC127P610X363-8N" H 4900 8050 50  0001 L CNN
+F 3 "" H 5650 8650 50  0001 L CNN
+F 4 "Transistor Output Optocouplers SO8 100-200% 3.75KV 2CH Optocoupler" H 4900 7850 50  0001 L CNN "Description"
+F 5 "3.63" H 4900 7950 50  0001 L CNN "Height"
+F 6 "859-LTV-207" H 4900 7650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Lite-On/LTV-207?qs=9ayhpukWNmtfYMeWUew08A%3D%3D" H 4900 7550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Lite-On" H 4900 7450 50  0001 L CNN "Manufacturer_Name"
+F 9 "LTV-207" H 4900 7350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5300 8500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:LTV-207 IC3
+U 1 1 5F50F377
+P 5300 6950
+F 0 "IC3" H 5300 7365 50  0000 C CNN
+F 1 "LTV-207" H 5300 7274 50  0000 C CNN
+F 2 "SOIC127P610X363-8N" H 4900 6500 50  0001 L CNN
+F 3 "" H 5650 7100 50  0001 L CNN
+F 4 "Transistor Output Optocouplers SO8 100-200% 3.75KV 2CH Optocoupler" H 4900 6300 50  0001 L CNN "Description"
+F 5 "3.63" H 4900 6400 50  0001 L CNN "Height"
+F 6 "859-LTV-207" H 4900 6100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Lite-On/LTV-207?qs=9ayhpukWNmtfYMeWUew08A%3D%3D" H 4900 6000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Lite-On" H 4900 5900 50  0001 L CNN "Manufacturer_Name"
+F 9 "LTV-207" H 4900 5800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5300 6950
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 3700 6400 600  400 
+U 5F515CFB
+F0 "Switch9" 50
+F1 "Switch.sch" 50
+F2 "VSS" I L 3700 6700 50 
+F3 "Vc" I R 4300 6700 50 
+F4 "S1" B R 4300 6500 50 
+F5 "S0" B L 3700 6500 50 
+$EndSheet
+$Comp
+L power:GNDREF #PWR012
+U 1 1 5F5312BF
+P 5800 8650
+F 0 "#PWR012" H 5800 8400 50  0001 C CNN
+F 1 "GNDREF" V 5805 8522 50  0000 R CNN
+F 2 "" H 5800 8650 50  0001 C CNN
+F 3 "" H 5800 8650 50  0001 C CNN
+	1    5800 8650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR011
+U 1 1 5F5319E7
+P 5800 8450
+F 0 "#PWR011" H 5800 8200 50  0001 C CNN
+F 1 "GNDREF" V 5805 8322 50  0000 R CNN
+F 2 "" H 5800 8450 50  0001 C CNN
+F 3 "" H 5800 8450 50  0001 C CNN
+	1    5800 8450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR010
+U 1 1 5F531AF0
+P 5800 7100
+F 0 "#PWR010" H 5800 6850 50  0001 C CNN
+F 1 "GNDREF" V 5805 6972 50  0000 R CNN
+F 2 "" H 5800 7100 50  0001 C CNN
+F 3 "" H 5800 7100 50  0001 C CNN
+	1    5800 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR09
+U 1 1 5F531F69
+P 5800 6900
+F 0 "#PWR09" H 5800 6650 50  0001 C CNN
+F 1 "GNDREF" V 5805 6772 50  0000 R CNN
+F 2 "" H 5800 6900 50  0001 C CNN
+F 3 "" H 5800 6900 50  0001 C CNN
+	1    5800 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SamacSys_Parts:LTV-207 IC6
+U 1 1 5F5F70E9
+P 5300 11500
+F 0 "IC6" H 5300 11915 50  0000 C CNN
+F 1 "LTV-207" H 5300 11824 50  0000 C CNN
+F 2 "SOIC127P610X363-8N" H 4900 11050 50  0001 L CNN
+F 3 "" H 5650 11650 50  0001 L CNN
+F 4 "Transistor Output Optocouplers SO8 100-200% 3.75KV 2CH Optocoupler" H 4900 10850 50  0001 L CNN "Description"
+F 5 "3.63" H 4900 10950 50  0001 L CNN "Height"
+F 6 "859-LTV-207" H 4900 10650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Lite-On/LTV-207?qs=9ayhpukWNmtfYMeWUew08A%3D%3D" H 4900 10550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Lite-On" H 4900 10450 50  0001 L CNN "Manufacturer_Name"
+F 9 "LTV-207" H 4900 10350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5300 11500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:LTV-207 IC7
+U 1 1 5F5FA5F2
+P 5300 13000
+F 0 "IC7" H 5300 13415 50  0000 C CNN
+F 1 "LTV-207" H 5300 13324 50  0000 C CNN
+F 2 "SOIC127P610X363-8N" H 4900 12550 50  0001 L CNN
+F 3 "" H 5650 13150 50  0001 L CNN
+F 4 "Transistor Output Optocouplers SO8 100-200% 3.75KV 2CH Optocoupler" H 4900 12350 50  0001 L CNN "Description"
+F 5 "3.63" H 4900 12450 50  0001 L CNN "Height"
+F 6 "859-LTV-207" H 4900 12150 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Lite-On/LTV-207?qs=9ayhpukWNmtfYMeWUew08A%3D%3D" H 4900 12050 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Lite-On" H 4900 11950 50  0001 L CNN "Manufacturer_Name"
+F 9 "LTV-207" H 4900 11850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5300 13000
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 3700 5650 600  400 
+U 5F4C6556
+F0 "Switch10" 50
+F1 "Switch.sch" 50
+F2 "VSS" I L 3700 5950 50 
+F3 "Vc" I R 4300 5950 50 
+F4 "S1" B R 4300 5750 50 
+F5 "S0" B L 3700 5750 50 
+$EndSheet
+$Sheet
+S 3700 4900 600  400 
+U 5F4C6BE4
+F0 "Switch11" 50
+F1 "Switch.sch" 50
+F2 "VSS" I L 3700 5200 50 
+F3 "Vc" I R 4300 5200 50 
+F4 "S1" B R 4300 5000 50 
+F5 "S0" B L 3700 5000 50 
+$EndSheet
+$Sheet
+S 3700 4150 600  400 
+U 5F4C7803
+F0 "Switch12" 50
+F1 "Switch.sch" 50
+F2 "VSS" I L 3700 4450 50 
+F3 "Vc" I R 4300 4450 50 
+F4 "S1" B R 4300 4250 50 
+F5 "S0" B L 3700 4250 50 
+$EndSheet
+$Sheet
+S 3700 3350 600  400 
+U 5F4C8279
+F0 "Switch13" 50
+F1 "Switch.sch" 50
+F2 "VSS" I L 3700 3650 50 
+F3 "Vc" I R 4300 3650 50 
+F4 "S1" B R 4300 3450 50 
+F5 "S0" B L 3700 3450 50 
+$EndSheet
+$Comp
+L power:GNDREF #PWR04
+U 1 1 5F4CB20D
+P 3700 12750
+F 0 "#PWR04" H 3700 12500 50  0001 C CNN
+F 1 "GNDREF" V 3705 12622 50  0000 R CNN
+F 2 "" H 3700 12750 50  0001 C CNN
+F 3 "" H 3700 12750 50  0001 C CNN
+	1    3700 12750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 12550 3600 12550
+Wire Wire Line
+	2650 12550 2650 11800
+Wire Wire Line
+	2650 8700 2200 8700
+$Comp
+L power:GNDREF #PWR03
+U 1 1 5F4CD9C0
+P 3700 12000
+F 0 "#PWR03" H 3700 11750 50  0001 C CNN
+F 1 "GNDREF" V 3705 11872 50  0000 R CNN
+F 2 "" H 3700 12000 50  0001 C CNN
+F 3 "" H 3700 12000 50  0001 C CNN
+	1    3700 12000
+	0    1    1    0   
+$EndComp
+Connection ~ 2650 11800
+Wire Wire Line
+	2650 11800 2650 11250
+Wire Wire Line
+	3700 11800 3600 11800
+Wire Wire Line
+	3700 11250 2650 11250
+Connection ~ 2650 11250
+Wire Wire Line
+	2650 11250 2650 10500
+Wire Wire Line
+	3700 10500 2650 10500
+Connection ~ 2650 10500
+Wire Wire Line
+	2650 10500 2650 8700
+Wire Wire Line
+	3700 11050 3600 11050
+Wire Wire Line
+	2750 11050 2750 10300
+Wire Wire Line
+	2750 8600 2200 8600
+Wire Wire Line
+	3700 10300 3600 10300
+Connection ~ 2750 10300
+Wire Wire Line
+	2750 10300 2750 9750
+Wire Wire Line
+	3700 9750 2750 9750
+Connection ~ 2750 9750
+Wire Wire Line
+	2750 9750 2750 9000
+Wire Wire Line
+	3700 9000 2750 9000
+Connection ~ 2750 9000
+Wire Wire Line
+	2750 9000 2750 8600
+Wire Wire Line
+	3700 9550 3600 9550
+Wire Wire Line
+	2850 9550 2850 8800
+Wire Wire Line
+	2850 8500 2200 8500
+Wire Wire Line
+	3700 8800 3600 8800
+Connection ~ 2850 8800
+Wire Wire Line
+	2850 8800 2850 8500
+Wire Wire Line
+	3700 8200 2850 8200
+Wire Wire Line
+	2850 8200 2850 8500
+Connection ~ 2850 8500
+Wire Wire Line
+	3700 7450 2850 7450
+Wire Wire Line
+	2850 7450 2850 8200
+Connection ~ 2850 8200
+Wire Wire Line
+	3700 8000 3600 8000
+Wire Wire Line
+	2750 8000 2750 8400
+Wire Wire Line
+	2750 8400 2200 8400
+Wire Wire Line
+	3700 7250 3600 7250
+Wire Wire Line
+	2750 7250 2750 8000
+Connection ~ 2750 8000
+Wire Wire Line
+	3700 6700 2750 6700
+Wire Wire Line
+	2750 6700 2750 7250
+Connection ~ 2750 7250
+Wire Wire Line
+	3700 5950 2750 5950
+Wire Wire Line
+	2750 5950 2750 6700
+Connection ~ 2750 6700
+Wire Wire Line
+	3700 6500 3600 6500
+Wire Wire Line
+	2650 6500 2650 8300
+Wire Wire Line
+	2650 8300 2200 8300
+Wire Wire Line
+	3700 5750 3600 5750
+Wire Wire Line
+	2650 5750 2650 6500
+Connection ~ 2650 6500
+Wire Wire Line
+	3700 5200 2650 5200
+Wire Wire Line
+	2650 5200 2650 5750
+Connection ~ 2650 5750
+Wire Wire Line
+	3700 4450 2650 4450
+Wire Wire Line
+	2650 4450 2650 5200
+Connection ~ 2650 5200
+Wire Wire Line
+	3700 5000 3600 5000
+Wire Wire Line
+	2550 5000 2550 8200
+Wire Wire Line
+	2550 8200 2200 8200
+Wire Wire Line
+	3700 4250 3600 4250
+Wire Wire Line
+	2550 4250 2550 5000
+Connection ~ 2550 5000
+Wire Wire Line
+	3700 3650 2550 3650
+Wire Wire Line
+	2550 3650 2550 4250
+Connection ~ 2550 4250
+Text GLabel 3600 3450 0    50   Input ~ 0
+Cell7
+Wire Wire Line
+	4400 13050 4400 12200
+Wire Wire Line
+	4400 11800 4300 11800
+Wire Wire Line
+	4300 12550 4500 12550
+Wire Wire Line
+	4500 12550 4500 12100
+Wire Wire Line
+	4500 11050 4300 11050
+Wire Wire Line
+	4400 11800 4400 10300
+Wire Wire Line
+	4400 10300 4300 10300
+Connection ~ 4400 11800
+Wire Wire Line
+	4500 11050 4500 9550
+Wire Wire Line
+	4500 9550 4300 9550
+Connection ~ 4500 11050
+Wire Wire Line
+	4400 10300 4400 8800
+Wire Wire Line
+	4400 8800 4300 8800
+Connection ~ 4400 10300
+Wire Wire Line
+	4500 9550 4500 8000
+Wire Wire Line
+	4500 8000 4300 8000
+Connection ~ 4500 9550
+Wire Wire Line
+	4400 8800 4400 7250
+Wire Wire Line
+	4400 7250 4300 7250
+Connection ~ 4400 8800
+Wire Wire Line
+	4500 8000 4500 6500
+Wire Wire Line
+	4500 6500 4300 6500
+Connection ~ 4500 8000
+Wire Wire Line
+	4400 7250 4400 5750
+Wire Wire Line
+	4400 5750 4300 5750
+Connection ~ 4400 7250
+Wire Wire Line
+	4500 6500 4500 5000
+Wire Wire Line
+	4500 5000 4300 5000
+Connection ~ 4500 6500
+Wire Wire Line
+	4400 5750 4400 4250
+Wire Wire Line
+	4400 4250 4300 4250
+Connection ~ 4400 5750
+Wire Wire Line
+	4500 5000 4500 3450
+Wire Wire Line
+	4500 3450 4300 3450
+Connection ~ 4500 5000
+Wire Wire Line
+	4000 13450 4600 13450
+Wire Wire Line
+	3600 12550 3600 12300
+Wire Wire Line
+	3600 12300 4600 12300
+Wire Wire Line
+	4600 12300 4600 12850
+Wire Wire Line
+	4600 13050 4800 13050
+Connection ~ 3600 12550
+Wire Wire Line
+	3600 12550 2650 12550
+Wire Wire Line
+	4800 12850 4600 12850
+Connection ~ 4600 12850
+Wire Wire Line
+	4600 12850 4600 13050
+Wire Wire Line
+	4800 12950 4500 12950
+Wire Wire Line
+	4500 12950 4500 12750
+Wire Wire Line
+	4500 12750 4300 12750
+Wire Wire Line
+	4800 13150 4600 13150
+Wire Wire Line
+	4600 13150 4600 13450
+Wire Wire Line
+	4300 12000 4600 12000
+Wire Wire Line
+	4600 12000 4600 11650
+Wire Wire Line
+	4600 11650 4800 11650
+Wire Wire Line
+	3600 11550 3600 11800
+Connection ~ 3600 11800
+Wire Wire Line
+	3600 11800 2650 11800
+Wire Wire Line
+	4600 11250 4300 11250
+Wire Wire Line
+	4800 11450 4600 11450
+Wire Wire Line
+	4600 11450 4600 11250
+Wire Wire Line
+	3600 11550 4800 11550
+Wire Wire Line
+	4800 11350 4700 11350
+Wire Wire Line
+	4700 11350 4700 10800
+Wire Wire Line
+	4700 10800 3600 10800
+Wire Wire Line
+	3600 10800 3600 11050
+Connection ~ 3600 11050
+Wire Wire Line
+	3600 11050 2750 11050
+$Comp
+L SamacSys_Parts:LTV-207 IC5
+U 1 1 5F5822F4
+P 5300 10000
+F 0 "IC5" H 5300 10415 50  0000 C CNN
+F 1 "LTV-207" H 5300 10324 50  0000 C CNN
+F 2 "SOIC127P610X363-8N" H 4900 9550 50  0001 L CNN
+F 3 "" H 5650 10150 50  0001 L CNN
+F 4 "Transistor Output Optocouplers SO8 100-200% 3.75KV 2CH Optocoupler" H 4900 9350 50  0001 L CNN "Description"
+F 5 "3.63" H 4900 9450 50  0001 L CNN "Height"
+F 6 "859-LTV-207" H 4900 9150 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Lite-On/LTV-207?qs=9ayhpukWNmtfYMeWUew08A%3D%3D" H 4900 9050 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Lite-On" H 4900 8950 50  0001 L CNN "Manufacturer_Name"
+F 9 "LTV-207" H 4900 8850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5300 10000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 10500 4600 10500
+Wire Wire Line
+	4600 10500 4600 10150
+Wire Wire Line
+	4600 10150 4800 10150
+Wire Wire Line
+	4800 10050 3600 10050
+Wire Wire Line
+	3600 10050 3600 10300
+Connection ~ 3600 10300
+Wire Wire Line
+	3600 10300 2750 10300
+Wire Wire Line
+	4800 9950 4600 9950
+Wire Wire Line
+	4600 9950 4600 9750
+Wire Wire Line
+	4600 9750 4300 9750
+Wire Wire Line
+	4800 9850 4700 9850
+Wire Wire Line
+	4700 9850 4700 9300
+Wire Wire Line
+	4700 9300 3600 9300
+Wire Wire Line
+	3600 9300 3600 9550
+Connection ~ 3600 9550
+Wire Wire Line
+	3600 9550 2850 9550
+Wire Wire Line
+	4300 9000 4600 9000
+Wire Wire Line
+	4600 9000 4600 8650
+Wire Wire Line
+	4600 8650 4800 8650
+Wire Wire Line
+	4800 8550 3600 8550
+Wire Wire Line
+	3600 8550 3600 8800
+Connection ~ 3600 8800
+Wire Wire Line
+	3600 8800 2850 8800
+Wire Wire Line
+	4800 8450 4600 8450
+Wire Wire Line
+	4600 8450 4600 8200
+Wire Wire Line
+	4600 8200 4300 8200
+Wire Wire Line
+	4800 8350 4700 8350
+Wire Wire Line
+	4700 8350 4700 7750
+Wire Wire Line
+	4700 7750 3600 7750
+Wire Wire Line
+	3600 7750 3600 8000
+Connection ~ 3600 8000
+Wire Wire Line
+	3600 8000 2750 8000
+Wire Wire Line
+	4800 7100 4600 7100
+Wire Wire Line
+	4600 7100 4600 7450
+Wire Wire Line
+	4600 7450 4300 7450
+Wire Wire Line
+	4800 7000 3600 7000
+Wire Wire Line
+	3600 7000 3600 7250
+Connection ~ 3600 7250
+Wire Wire Line
+	3600 7250 2750 7250
+Wire Wire Line
+	4800 6900 4600 6900
+Wire Wire Line
+	4600 6900 4600 6700
+Wire Wire Line
+	4600 6700 4300 6700
+Wire Wire Line
+	4800 6800 4700 6800
+Wire Wire Line
+	4700 6800 4700 6250
+Wire Wire Line
+	4700 6250 3600 6250
+Wire Wire Line
+	3600 6250 3600 6500
+Connection ~ 3600 6500
+Wire Wire Line
+	3600 6500 2650 6500
+$Comp
+L power:GNDREF #PWR013
+U 1 1 5F5EF152
+P 5800 9950
+F 0 "#PWR013" H 5800 9700 50  0001 C CNN
+F 1 "GNDREF" V 5805 9822 50  0000 R CNN
+F 2 "" H 5800 9950 50  0001 C CNN
+F 3 "" H 5800 9950 50  0001 C CNN
+	1    5800 9950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR014
+U 1 1 5F5EFAB5
+P 5800 10150
+F 0 "#PWR014" H 5800 9900 50  0001 C CNN
+F 1 "GNDREF" V 5805 10022 50  0000 R CNN
+F 2 "" H 5800 10150 50  0001 C CNN
+F 3 "" H 5800 10150 50  0001 C CNN
+	1    5800 10150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR015
+U 1 1 5F5EFCF0
+P 5800 11450
+F 0 "#PWR015" H 5800 11200 50  0001 C CNN
+F 1 "GNDREF" V 5805 11322 50  0000 R CNN
+F 2 "" H 5800 11450 50  0001 C CNN
+F 3 "" H 5800 11450 50  0001 C CNN
+	1    5800 11450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR016
+U 1 1 5F5F033D
+P 5800 11650
+F 0 "#PWR016" H 5800 11400 50  0001 C CNN
+F 1 "GNDREF" V 5805 11522 50  0000 R CNN
+F 2 "" H 5800 11650 50  0001 C CNN
+F 3 "" H 5800 11650 50  0001 C CNN
+	1    5800 11650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR017
+U 1 1 5F5F058E
+P 5800 12950
+F 0 "#PWR017" H 5800 12700 50  0001 C CNN
+F 1 "GNDREF" V 5805 12822 50  0000 R CNN
+F 2 "" H 5800 12950 50  0001 C CNN
+F 3 "" H 5800 12950 50  0001 C CNN
+	1    5800 12950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR018
+U 1 1 5F5F0B7F
+P 5800 13150
+F 0 "#PWR018" H 5800 12900 50  0001 C CNN
+F 1 "GNDREF" V 5805 13022 50  0000 R CNN
+F 2 "" H 5800 13150 50  0001 C CNN
+F 3 "" H 5800 13150 50  0001 C CNN
+	1    5800 13150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SamacSys_Parts:LTV-207 IC2
+U 1 1 5F5F2961
+P 5300 5450
+F 0 "IC2" H 5300 5865 50  0000 C CNN
+F 1 "LTV-207" H 5300 5774 50  0000 C CNN
+F 2 "SOIC127P610X363-8N" H 4900 5000 50  0001 L CNN
+F 3 "" H 5650 5600 50  0001 L CNN
+F 4 "Transistor Output Optocouplers SO8 100-200% 3.75KV 2CH Optocoupler" H 4900 4800 50  0001 L CNN "Description"
+F 5 "3.63" H 4900 4900 50  0001 L CNN "Height"
+F 6 "859-LTV-207" H 4900 4600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Lite-On/LTV-207?qs=9ayhpukWNmtfYMeWUew08A%3D%3D" H 4900 4500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Lite-On" H 4900 4400 50  0001 L CNN "Manufacturer_Name"
+F 9 "LTV-207" H 4900 4300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5300 5450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5950 4600 5950
+Wire Wire Line
+	4600 5950 4600 5600
+Wire Wire Line
+	4600 5600 4800 5600
+Wire Wire Line
+	4800 5500 3600 5500
+Wire Wire Line
+	3600 5500 3600 5750
+Connection ~ 3600 5750
+Wire Wire Line
+	3600 5750 2650 5750
+Wire Wire Line
+	4800 5400 4600 5400
+Wire Wire Line
+	4600 5400 4600 5200
+Wire Wire Line
+	4600 5200 4300 5200
+Wire Wire Line
+	4800 5300 4700 5300
+Wire Wire Line
+	4700 5300 4700 4750
+Wire Wire Line
+	4700 4750 3600 4750
+Wire Wire Line
+	3600 4750 3600 5000
+Connection ~ 3600 5000
+Wire Wire Line
+	3600 5000 2550 5000
+$Comp
+L SamacSys_Parts:LTV-207 IC1
+U 1 1 5F61B4F1
+P 5300 3950
+F 0 "IC1" H 5300 4365 50  0000 C CNN
+F 1 "LTV-207" H 5300 4274 50  0000 C CNN
+F 2 "SOIC127P610X363-8N" H 4900 3500 50  0001 L CNN
+F 3 "" H 5650 4100 50  0001 L CNN
+F 4 "Transistor Output Optocouplers SO8 100-200% 3.75KV 2CH Optocoupler" H 4900 3300 50  0001 L CNN "Description"
+F 5 "3.63" H 4900 3400 50  0001 L CNN "Height"
+F 6 "859-LTV-207" H 4900 3100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Lite-On/LTV-207?qs=9ayhpukWNmtfYMeWUew08A%3D%3D" H 4900 3000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Lite-On" H 4900 2900 50  0001 L CNN "Manufacturer_Name"
+F 9 "LTV-207" H 4900 2800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5300 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4450 4600 4450
+Wire Wire Line
+	4600 4450 4600 4100
+Wire Wire Line
+	4600 4100 4800 4100
+Wire Wire Line
+	4800 4000 3600 4000
+Wire Wire Line
+	3600 4000 3600 4250
+Connection ~ 3600 4250
+Wire Wire Line
+	3600 4250 2550 4250
+Wire Wire Line
+	4800 3900 4600 3900
+Wire Wire Line
+	4600 3900 4600 3650
+Wire Wire Line
+	4600 3650 4300 3650
+Wire Wire Line
+	3700 3450 3600 3450
+Wire Wire Line
+	3600 3450 3600 3200
+Wire Wire Line
+	3600 3200 4700 3200
+Wire Wire Line
+	4700 3200 4700 3800
+Wire Wire Line
+	4700 3800 4800 3800
+$Comp
+L power:GNDREF #PWR08
+U 1 1 5F657650
+P 5800 5600
+F 0 "#PWR08" H 5800 5350 50  0001 C CNN
+F 1 "GNDREF" V 5805 5472 50  0000 R CNN
+F 2 "" H 5800 5600 50  0001 C CNN
+F 3 "" H 5800 5600 50  0001 C CNN
+	1    5800 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR07
+U 1 1 5F658182
+P 5800 5400
+F 0 "#PWR07" H 5800 5150 50  0001 C CNN
+F 1 "GNDREF" V 5805 5272 50  0000 R CNN
+F 2 "" H 5800 5400 50  0001 C CNN
+F 3 "" H 5800 5400 50  0001 C CNN
+	1    5800 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR06
+U 1 1 5F65855B
+P 5800 4100
+F 0 "#PWR06" H 5800 3850 50  0001 C CNN
+F 1 "GNDREF" V 5805 3972 50  0000 R CNN
+F 2 "" H 5800 4100 50  0001 C CNN
+F 3 "" H 5800 4100 50  0001 C CNN
+	1    5800 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR05
+U 1 1 5F658C4A
+P 5800 3900
+F 0 "#PWR05" H 5800 3650 50  0001 C CNN
+F 1 "GNDREF" V 5805 3772 50  0000 R CNN
+F 2 "" H 5800 3900 50  0001 C CNN
+F 3 "" H 5800 3900 50  0001 C CNN
+	1    5800 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 13050 6250 13050
+Wire Wire Line
+	6250 13050 6250 12850
+Wire Wire Line
+	6250 12850 5800 12850
+Wire Wire Line
+	5800 11550 6250 11550
+Wire Wire Line
+	6250 11550 6250 11350
+Wire Wire Line
+	6250 11350 5800 11350
+Wire Wire Line
+	5800 10050 6250 10050
+Wire Wire Line
+	6250 10050 6250 9850
+Wire Wire Line
+	6250 9850 5800 9850
+Wire Wire Line
+	6250 8550 6250 8350
+Wire Wire Line
+	6250 8350 5800 8350
+Wire Wire Line
+	5800 8550 6250 8550
+Wire Wire Line
+	5800 7000 6250 7000
+Wire Wire Line
+	6250 7000 6250 6800
+Wire Wire Line
+	6250 6800 5800 6800
+Wire Wire Line
+	5800 5500 6250 5500
+Wire Wire Line
+	6250 5500 6250 5300
+Wire Wire Line
+	6250 5300 5800 5300
+Wire Wire Line
+	5800 4000 6250 4000
+Wire Wire Line
+	6250 4000 6250 3800
+Wire Wire Line
+	6250 3800 5800 3800
+$Comp
+L SamacSys_Parts:MAX4617CUE+ IC8
+U 1 1 5F6CAAEB
+P 15750 9000
+F 0 "IC8" H 15750 9615 50  0000 C CNN
+F 1 "MAX4617CUE+" H 15750 9524 50  0000 C CNN
+F 2 "SOP65P640X110-16N" H 15350 8300 50  0001 L CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX4617-MAX4619.pdf" H 15350 8200 50  0001 L CNN
+F 4 "MAXIM INTEGRATED PRODUCTS - MAX4617CUE+ - MULTIPLEXER, 8X1, 10OHM RON, 16TSSOP" H 15350 8100 50  0001 L CNN "Description"
+F 5 "1.1" H 15350 8000 50  0001 L CNN "Height"
+F 6 "700-MAX4617CUE" H 15350 7900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX4617CUE%2b?qs=1THa7WoU59G15y5X8RUkoA%3D%3D" H 15350 7800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Maxim Integrated" H 15350 7700 50  0001 L CNN "Manufacturer_Name"
+F 9 "MAX4617CUE+" H 15350 7600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    15750 9000
+	1    0    0    -1  
+$EndComp
+Text GLabel 6250 12850 2    50   Input ~ 0
+C1
+Text GLabel 6250 11350 2    50   Input ~ 0
+C2
+Text GLabel 6250 9850 2    50   Input ~ 0
+C3
+Text GLabel 6250 8350 2    50   Input ~ 0
+C4
+Text GLabel 6250 6800 2    50   Input ~ 0
+C5
+Text GLabel 6250 5300 2    50   Input ~ 0
+C6
+Text GLabel 6250 3800 2    50   Input ~ 0
+C7
+Text GLabel 14250 8850 0    50   Input ~ 0
+3v3
+Text GLabel 16350 8950 2    50   Output ~ 0
+C1
+Text GLabel 16350 8850 2    50   Output ~ 0
+C2
+Text GLabel 16350 8750 2    50   Output ~ 0
+C3
+Text GLabel 16350 9050 2    50   Output ~ 0
+C4
+Text GLabel 15150 8650 0    50   Output ~ 0
+C5
+Text GLabel 15150 9050 0    50   Output ~ 0
+C6
+Text GLabel 15150 8750 0    50   Output ~ 0
+C7
+$Comp
+L power:GNDREF #PWR036
+U 1 1 5F711408
+P 15150 9350
+F 0 "#PWR036" H 15150 9100 50  0001 C CNN
+F 1 "GNDREF" V 15155 9222 50  0000 R CNN
+F 2 "" H 15150 9350 50  0001 C CNN
+F 3 "" H 15150 9350 50  0001 C CNN
+	1    15150 9350
+	0    1    1    0   
+$EndComp
+Text GLabel 16350 8650 2    50   Input ~ 0
+3v3
+$Comp
+L power:GNDREF #PWR038
+U 1 1 5F730964
+P 16350 8150
+F 0 "#PWR038" H 16350 7900 50  0001 C CNN
+F 1 "GNDREF" H 16355 7977 50  0000 C CNN
+F 2 "" H 16350 8150 50  0001 C CNN
+F 3 "" H 16350 8150 50  0001 C CNN
+	1    16350 8150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	19850 10750 19850 10300
+$Comp
+L power:GNDREF #PWR046
+U 1 1 5F741D45
+P 19350 10750
+F 0 "#PWR046" H 19350 10500 50  0001 C CNN
+F 1 "GNDREF" V 19355 10622 50  0000 R CNN
+F 2 "" H 19350 10750 50  0001 C CNN
+F 3 "" H 19350 10750 50  0001 C CNN
+	1    19350 10750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18500 8900 19150 8900
+$Comp
+L power:GNDREF #PWR043
+U 1 1 5F7609F4
+P 18500 9400
+F 0 "#PWR043" H 18500 9150 50  0001 C CNN
+F 1 "GNDREF" H 18505 9227 50  0000 C CNN
+F 2 "" H 18500 9400 50  0001 C CNN
+F 3 "" H 18500 9400 50  0001 C CNN
+	1    18500 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20850 8300 20850 8400
+$Comp
+L power:GNDREF #PWR050
+U 1 1 5F7C9BA7
+P 21350 8300
+F 0 "#PWR050" H 21350 8050 50  0001 C CNN
+F 1 "GNDREF" V 21355 8172 50  0000 R CNN
+F 2 "" H 21350 8300 50  0001 C CNN
+F 3 "" H 21350 8300 50  0001 C CNN
+	1    21350 8300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 17050 9150 2    50   Input ~ 0
+A
+Text GLabel 17050 9250 2    50   Input ~ 0
+B
+Text GLabel 17050 9350 2    50   Input ~ 0
+C
+$Comp
+L SamacSys_Parts:ERJ-3EKF1003V R35
+U 1 1 5F7F80E3
+P 14600 8950
+F 0 "R35" H 14600 8850 50  0000 C CNN
+F 1 "ERJ-3EKF1003V" H 14350 8500 50  0001 L CNN
+F 2 "RESC1608X55N" H 14350 8600 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf" H 14350 8500 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 100Kohms 1% Tol" H 14350 8400 50  0001 L CNN "Description"
+F 5 "0.55" H 14350 8300 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF1003V" H 14350 8200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3EKF1003V?qs=H7k1u0Mp9JSqh2R2gj46DA%3D%3D" H 14350 8100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 14350 8000 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF1003V" H 14350 7900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 k" H 14600 8950 50  0000 C CNN "Resistance"
+	1    14600 8950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR033
+U 1 1 5F81796D
+P 14250 8950
+F 0 "#PWR033" H 14250 8700 50  0001 C CNN
+F 1 "GNDREF" V 14255 8822 50  0000 R CNN
+F 2 "" H 14250 8950 50  0001 C CNN
+F 3 "" H 14250 8950 50  0001 C CNN
+	1    14250 8950
+	0    1    1    0   
+$EndComp
+Text GLabel 15150 9150 0    50   Input ~ 0
+ENABLE
+$Comp
+L SamacSys_Parts:ERJ-3GEYJ301V R34
+U 1 1 5F82CA6F
+P 14600 8850
+F 0 "R34" H 14600 8750 50  0000 C CNN
+F 1 "ERJ-3GEYJ301V" H 14350 8500 50  0001 L CNN
+F 2 "RESC1608X55N" H 14350 8600 50  0001 L CNN
+F 3 "" H 15150 8800 50  0001 L CNN
+F 4 "RESISTOR, 0603 300 Ohms +/- 5% 0.1W" H 14350 8400 50  0001 L CNN "Description"
+F 5 "0.55" H 14350 8300 50  0001 L CNN "Height"
+F 6 "667-ERJ-3GEYJ301V" H 14350 8200 50  0001 L CNN "Mouser Part Number"
+F 7 "http://www.mouser.com/Search/ProductDetail.aspx?qs=4WZYzuGhm5pfW5gmtjUmBA%3d%3d" H 14350 8100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 14350 8000 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3GEYJ301V" H 14350 7900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "300" H 14600 8850 50  0000 C CNN "Resistance"
+	1    14600 8850
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:ERJ-3GEYJ472V R37
+U 1 1 5F888F00
+P 16700 9150
+F 0 "R37" H 16600 9250 50  0000 C CNN
+F 1 "ERJ-3GEYJ472V" H 16400 8700 50  0001 L CNN
+F 2 "RESC1608X55N" H 16400 8800 50  0001 L CNN
+F 3 "" H 17250 9100 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 4.7Kohms 5% AEC-Q200" H 16400 8600 50  0001 L CNN "Description"
+F 5 "0.55" H 16400 8500 50  0001 L CNN "Height"
+F 6 "667-ERJ-3GEYJ472V" H 16400 8400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3GEYJ472V?qs=5Z1f76oN9PODrqkF4KFDng%3D%3D" H 16400 8300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 16400 8200 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3GEYJ472V" H 16400 8100 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "4.7 k" H 16700 9150 50  0000 C CNN "Resistance"
+	1    16700 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:ERJ-3GEYJ472V R38
+U 1 1 5F889C22
+P 16700 9250
+F 0 "R38" H 16900 9300 50  0000 C CNN
+F 1 "ERJ-3GEYJ472V" H 16400 8800 50  0001 L CNN
+F 2 "RESC1608X55N" H 16400 8900 50  0001 L CNN
+F 3 "" H 17250 9200 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 4.7Kohms 5% AEC-Q200" H 16400 8700 50  0001 L CNN "Description"
+F 5 "0.55" H 16400 8600 50  0001 L CNN "Height"
+F 6 "667-ERJ-3GEYJ472V" H 16400 8500 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3GEYJ472V?qs=5Z1f76oN9PODrqkF4KFDng%3D%3D" H 16400 8400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 16400 8300 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3GEYJ472V" H 16400 8200 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "4.7 k" H 16700 9250 50  0000 C CNN "Resistance"
+	1    16700 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:ERJ-3GEYJ472V R39
+U 1 1 5F88A3C3
+P 16700 9350
+F 0 "R39" H 16600 9250 50  0000 C CNN
+F 1 "ERJ-3GEYJ472V" H 16400 8900 50  0001 L CNN
+F 2 "RESC1608X55N" H 16400 9000 50  0001 L CNN
+F 3 "" H 17250 9300 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 4.7Kohms 5% AEC-Q200" H 16400 8800 50  0001 L CNN "Description"
+F 5 "0.55" H 16400 8700 50  0001 L CNN "Height"
+F 6 "667-ERJ-3GEYJ472V" H 16400 8600 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3GEYJ472V?qs=5Z1f76oN9PODrqkF4KFDng%3D%3D" H 16400 8500 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 16400 8400 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3GEYJ472V" H 16400 8300 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "4.7 k" H 16700 9350 50  0000 C CNN "Resistance"
+	1    16700 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15150 8850 14950 8850
+Wire Wire Line
+	14950 8850 14950 8750
+Connection ~ 14950 8850
+Wire Wire Line
+	15150 8950 14950 8950
+Text GLabel 19150 9300 0    50   Input ~ 0
+Cell5S
+Text GLabel 19150 9500 0    50   Input ~ 0
+Cell6S
+Text GLabel 19550 7600 1    50   Input ~ 0
+Cell7S
+Text GLabel 20850 9500 2    50   Output ~ 0
+A
+Text GLabel 20850 9300 2    50   Output ~ 0
+B
+Text GLabel 20850 9200 2    50   Output ~ 0
+C
+$Comp
+L SamacSys_Parts:ERJ-3EKF7500V R40
+U 1 1 5F8F79FB
+P 21200 9400
+F 0 "R40" H 21200 9625 50  0000 C CNN
+F 1 "ERJ-3EKF7500V" H 20950 9050 50  0001 L CNN
+F 2 "RESC1608X55N" H 20950 9150 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/ERJ-3EKF7500V.pdf" H 20950 9050 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 750ohms 1% AEC-Q200" H 20950 8950 50  0001 L CNN "Description"
+F 5 "0.55" H 20950 8850 50  0001 L CNN "Height"
+F 6 "667-ERJ-3EKF7500V" H 20950 8750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-3EKF7500V" H 20950 8650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 20950 8550 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-3EKF7500V" H 20950 8450 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "750" H 21200 9534 50  0000 C CNN "Resistance"
+	1    21200 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:APT1608LSECK_J3-PRV LED1
+U 1 1 5F8F9949
+P 21850 9400
+F 0 "LED1" H 21850 9227 50  0000 C CNN
+F 1 "APT1608LSECK_J3-PRV" H 21550 8900 50  0001 L BNN
+F 2 "APT1608CGCK" H 21550 9000 50  0001 L BNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APT1608LSECK-J3-PRV.pdf" H 21550 8900 50  0001 L BNN
+F 4 "Standard LEDs - SMD 1.6X0.8MM RED LOW CURRENT SMD" H 21550 8800 50  0001 L BNN "Description"
+F 5 "0.75" H 21550 8700 50  0001 L BNN "Height"
+F 6 "604-APT1608LSECKJ3RV" H 21550 8600 50  0001 L BNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Kingbright/APT1608LSECK-J3-PRV?qs=6oMev5NRZMFBN%252BbFaEKqAQ%3D%3D" H 21550 8500 50  0001 L BNN "Mouser Price/Stock"
+F 8 "Kingbright" H 21550 8400 50  0001 L BNN "Manufacturer_Name"
+F 9 "APT1608LSECK/J3-PRV" H 21550 8300 50  0001 L BNN "Manufacturer_Part_Number"
+	1    21850 9400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDREF #PWR051
+U 1 1 5F8FB150
+P 22150 9400
+F 0 "#PWR051" H 22150 9150 50  0001 C CNN
+F 1 "GNDREF" V 22155 9272 50  0000 R CNN
+F 2 "" H 22150 9400 50  0001 C CNN
+F 3 "" H 22150 9400 50  0001 C CNN
+	1    22150 9400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4550 12100 2    50   BiDi ~ 0
+Cap+
+Text GLabel 4550 12200 2    50   BiDi ~ 0
+Cap-
+Wire Wire Line
+	4550 12200 4400 12200
+Connection ~ 4400 12200
+Wire Wire Line
+	4400 12200 4400 11800
+Wire Wire Line
+	4550 12100 4500 12100
+Connection ~ 4500 12100
+Wire Wire Line
+	4500 12100 4500 11050
+Text GLabel 4500 14000 0    50   BiDi ~ 0
+Cap+
+Text GLabel 4500 14500 0    50   BiDi ~ 0
+Cap-
+$Comp
+L SamacSys_Parts:06033C104KAT2A C16
+U 1 1 5FB4FACE
+P 19600 10750
+F 0 "C16" H 19600 10485 50  0000 C CNN
+F 1 "06033C104KAT2A" H 19300 10100 50  0001 L CNN
+F 2 "CAPC1608X90N" H 19300 10200 50  0001 L CNN
+F 3 "" H 19300 10100 50  0001 L CNN
+F 4 "Capacitor MLCC 0603 100nF 25V AVX 0603 Standard 100nF Ceramic Multilayer Capacitor, 25 V dc, +125C, X7R Dielectric, +/-10% SMD" H 19300 10000 50  0001 L CNN "Description"
+F 5 "0.9" H 19300 9900 50  0001 L CNN "Height"
+F 6 "581-06033C104KAT2A" H 19300 9800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/AVX/06033C104KAT2A?qs=gPDEucxdFwYuZhv3uXRdIw%3D%3D" H 19300 9700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 19300 9600 50  0001 L CNN "Manufacturer_Name"
+F 9 "06033C104KAT2A" H 19300 9500 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 nF" H 19600 10576 50  0000 C CNN "Capacitance"
+	1    19600 10750
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:06033C104KAT2A C13
+U 1 1 5FB51767
+P 18500 9150
+F 0 "C13" V 18454 9278 50  0000 L CNN
+F 1 "06033C104KAT2A" H 18200 8500 50  0001 L CNN
+F 2 "CAPC1608X90N" H 18200 8600 50  0001 L CNN
+F 3 "" H 18200 8500 50  0001 L CNN
+F 4 "Capacitor MLCC 0603 100nF 25V AVX 0603 Standard 100nF Ceramic Multilayer Capacitor, 25 V dc, +125C, X7R Dielectric, +/-10% SMD" H 18200 8400 50  0001 L CNN "Description"
+F 5 "0.9" H 18200 8300 50  0001 L CNN "Height"
+F 6 "581-06033C104KAT2A" H 18200 8200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/AVX/06033C104KAT2A?qs=gPDEucxdFwYuZhv3uXRdIw%3D%3D" H 18200 8100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 18200 8000 50  0001 L CNN "Manufacturer_Name"
+F 9 "06033C104KAT2A" H 18200 7900 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 nF" V 18545 9278 50  0000 L CNN "Capacitance"
+	1    18500 9150
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:06033C104KAT2A C18
+U 1 1 5FB539E1
+P 21100 8300
+F 0 "C18" H 21100 8565 50  0000 C CNN
+F 1 "06033C104KAT2A" H 20800 7650 50  0001 L CNN
+F 2 "CAPC1608X90N" H 20800 7750 50  0001 L CNN
+F 3 "" H 20800 7650 50  0001 L CNN
+F 4 "Capacitor MLCC 0603 100nF 25V AVX 0603 Standard 100nF Ceramic Multilayer Capacitor, 25 V dc, +125C, X7R Dielectric, +/-10% SMD" H 20800 7550 50  0001 L CNN "Description"
+F 5 "0.9" H 20800 7450 50  0001 L CNN "Height"
+F 6 "581-06033C104KAT2A" H 20800 7350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/AVX/06033C104KAT2A?qs=gPDEucxdFwYuZhv3uXRdIw%3D%3D" H 20800 7250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 20800 7150 50  0001 L CNN "Manufacturer_Name"
+F 9 "06033C104KAT2A" H 20800 7050 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 nF" H 21100 8474 50  0000 C CNN "Capacitance"
+	1    21100 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:06033C104KAT2A C9
+U 1 1 5FB54BB5
+P 16350 8400
+F 0 "C9" V 16396 8272 50  0000 R CNN
+F 1 "06033C104KAT2A" H 16050 7750 50  0001 L CNN
+F 2 "CAPC1608X90N" H 16050 7850 50  0001 L CNN
+F 3 "" H 16050 7750 50  0001 L CNN
+F 4 "Capacitor MLCC 0603 100nF 25V AVX 0603 Standard 100nF Ceramic Multilayer Capacitor, 25 V dc, +125C, X7R Dielectric, +/-10% SMD" H 16050 7650 50  0001 L CNN "Description"
+F 5 "0.9" H 16050 7550 50  0001 L CNN "Height"
+F 6 "581-06033C104KAT2A" H 16050 7450 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/AVX/06033C104KAT2A?qs=gPDEucxdFwYuZhv3uXRdIw%3D%3D" H 16050 7350 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 16050 7250 50  0001 L CNN "Manufacturer_Name"
+F 9 "06033C104KAT2A" H 16050 7150 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 nF" V 16305 8272 50  0000 R CNN "Capacitance"
+	1    16350 8400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SamacSys_Parts:06033C104KAT2A C7
+U 1 1 5FB55F4A
+P 14950 8500
+F 0 "C7" V 14996 8372 50  0000 R CNN
+F 1 "06033C104KAT2A" H 14650 7850 50  0001 L CNN
+F 2 "CAPC1608X90N" H 14650 7950 50  0001 L CNN
+F 3 "" H 14650 7850 50  0001 L CNN
+F 4 "Capacitor MLCC 0603 100nF 25V AVX 0603 Standard 100nF Ceramic Multilayer Capacitor, 25 V dc, +125C, X7R Dielectric, +/-10% SMD" H 14650 7750 50  0001 L CNN "Description"
+F 5 "0.9" H 14650 7650 50  0001 L CNN "Height"
+F 6 "581-06033C104KAT2A" H 14650 7550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/AVX/06033C104KAT2A?qs=gPDEucxdFwYuZhv3uXRdIw%3D%3D" H 14650 7450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "AVX" H 14650 7350 50  0001 L CNN "Manufacturer_Name"
+F 9 "06033C104KAT2A" H 14650 7250 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "100 nF" V 14905 8372 50  0000 R CNN "Capacitance"
+	1    14950 8500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDREF #PWR035
+U 1 1 5FB577C5
+P 14950 8250
+F 0 "#PWR035" H 14950 8000 50  0001 C CNN
+F 1 "GNDREF" H 14955 8077 50  0000 C CNN
+F 2 "" H 14950 8250 50  0001 C CNN
+F 3 "" H 14950 8250 50  0001 C CNN
+	1    14950 8250
+	-1   0    0    1   
+$EndComp
+Text GLabel 16800 5350 1    50   Input ~ 0
+Cell2
+$Comp
+L SamacSys_Parts:25TRV1000M12.5X13.5 C1
+U 1 1 5F7888F4
+P 4500 14250
+F 0 "C1" V 4454 14380 50  0000 L CNN
+F 1 "25TRV1000M12.5X13.5" H 4150 13450 50  0001 L CNN
+F 2 "CAPAE1300X1400N" H 4150 13550 50  0001 L CNN
+F 3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_TRV.pdf" H 4150 13450 50  0001 L CNN
+F 4 "RUBYCON - 25TRV1000M12.5X13.5 - CAP, 1000F, 25V, SMD" H 4150 13350 50  0001 L CNN "Description"
+F 5 "14" H 4150 13250 50  0001 L CNN "Height"
+F 6 "" H 4150 13150 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 4150 13250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Rubycon" H 4150 13150 50  0001 L CNN "Manufacturer_Name"
+F 9 "25TRV1000M12.5X13.5" H 4150 13050 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "1mF" V 4545 14380 50  0000 L CNN "Capacitance"
+	1    4500 14250
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:25TRV1000M12.5X13.5 C2
+U 1 1 5F789D88
+P 5000 14250
+F 0 "C2" V 4954 14380 50  0000 L CNN
+F 1 "25TRV1000M12.5X13.5" H 4650 13450 50  0001 L CNN
+F 2 "CAPAE1300X1400N" H 4650 13550 50  0001 L CNN
+F 3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_TRV.pdf" H 4650 13450 50  0001 L CNN
+F 4 "RUBYCON - 25TRV1000M12.5X13.5 - CAP, 1000F, 25V, SMD" H 4650 13350 50  0001 L CNN "Description"
+F 5 "14" H 4650 13250 50  0001 L CNN "Height"
+F 6 "" H 4650 13150 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 4650 13250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Rubycon" H 4650 13150 50  0001 L CNN "Manufacturer_Name"
+F 9 "25TRV1000M12.5X13.5" H 4650 13050 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "1mF" V 5045 14380 50  0000 L CNN "Capacitance"
+	1    5000 14250
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:25TRV1000M12.5X13.5 C3
+U 1 1 5F78A7B9
+P 5500 14250
+F 0 "C3" V 5454 14380 50  0000 L CNN
+F 1 "25TRV1000M12.5X13.5" H 5150 13450 50  0001 L CNN
+F 2 "CAPAE1300X1400N" H 5150 13550 50  0001 L CNN
+F 3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_TRV.pdf" H 5150 13450 50  0001 L CNN
+F 4 "RUBYCON - 25TRV1000M12.5X13.5 - CAP, 1000F, 25V, SMD" H 5150 13350 50  0001 L CNN "Description"
+F 5 "14" H 5150 13250 50  0001 L CNN "Height"
+F 6 "" H 5150 13150 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 5150 13250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Rubycon" H 5150 13150 50  0001 L CNN "Manufacturer_Name"
+F 9 "25TRV1000M12.5X13.5" H 5150 13050 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "1mF" V 5545 14380 50  0000 L CNN "Capacitance"
+	1    5500 14250
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:25TRV1000M12.5X13.5 C4
+U 1 1 5F78ADB6
+P 6000 14250
+F 0 "C4" V 5954 14380 50  0000 L CNN
+F 1 "25TRV1000M12.5X13.5" H 5650 13450 50  0001 L CNN
+F 2 "CAPAE1300X1400N" H 5650 13550 50  0001 L CNN
+F 3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_TRV.pdf" H 5650 13450 50  0001 L CNN
+F 4 "RUBYCON - 25TRV1000M12.5X13.5 - CAP, 1000F, 25V, SMD" H 5650 13350 50  0001 L CNN "Description"
+F 5 "14" H 5650 13250 50  0001 L CNN "Height"
+F 6 "" H 5650 13150 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 5650 13250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Rubycon" H 5650 13150 50  0001 L CNN "Manufacturer_Name"
+F 9 "25TRV1000M12.5X13.5" H 5650 13050 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "1mF" V 6045 14380 50  0000 L CNN "Capacitance"
+	1    6000 14250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 14000 5500 14000
+Connection ~ 5000 14000
+Wire Wire Line
+	5000 14000 4500 14000
+Connection ~ 5500 14000
+Wire Wire Line
+	5500 14000 5000 14000
+Wire Wire Line
+	6000 14500 5500 14500
+Connection ~ 5000 14500
+Wire Wire Line
+	5000 14500 4500 14500
+Connection ~ 5500 14500
+Wire Wire Line
+	5500 14500 5000 14500
+$Comp
+L SamacSys_Parts:25TRV1000M12.5X13.5 C5
+U 1 1 5F7AED6D
+P 6500 14250
+F 0 "C5" V 6454 14380 50  0000 L CNN
+F 1 "25TRV1000M12.5X13.5" H 6150 13450 50  0001 L CNN
+F 2 "CAPAE1300X1400N" H 6150 13550 50  0001 L CNN
+F 3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_TRV.pdf" H 6150 13450 50  0001 L CNN
+F 4 "RUBYCON - 25TRV1000M12.5X13.5 - CAP, 1000F, 25V, SMD" H 6150 13350 50  0001 L CNN "Description"
+F 5 "14" H 6150 13250 50  0001 L CNN "Height"
+F 6 "" H 6150 13150 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 6150 13250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Rubycon" H 6150 13150 50  0001 L CNN "Manufacturer_Name"
+F 9 "25TRV1000M12.5X13.5" H 6150 13050 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "1mF" V 6545 14380 50  0000 L CNN "Capacitance"
+	1    6500 14250
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:25TRV1000M12.5X13.5 C6
+U 1 1 5F7AF338
+P 7000 14250
+F 0 "C6" V 6954 14380 50  0000 L CNN
+F 1 "25TRV1000M12.5X13.5" H 6650 13450 50  0001 L CNN
+F 2 "CAPAE1300X1400N" H 6650 13550 50  0001 L CNN
+F 3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_TRV.pdf" H 6650 13450 50  0001 L CNN
+F 4 "RUBYCON - 25TRV1000M12.5X13.5 - CAP, 1000F, 25V, SMD" H 6650 13350 50  0001 L CNN "Description"
+F 5 "14" H 6650 13250 50  0001 L CNN "Height"
+F 6 "" H 6650 13150 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 6650 13250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Rubycon" H 6650 13150 50  0001 L CNN "Manufacturer_Name"
+F 9 "25TRV1000M12.5X13.5" H 6650 13050 50  0001 L CNN "Manufacturer_Part_Number"
+F 10 "1mF" V 7045 14380 50  0000 L CNN "Capacitance"
+	1    7000 14250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 14000 6500 14000
+Connection ~ 6000 14000
+Connection ~ 6500 14000
+Wire Wire Line
+	6500 14000 7000 14000
+Wire Wire Line
+	7000 14500 6500 14500
+Connection ~ 6000 14500
+Connection ~ 6500 14500
+Wire Wire Line
+	6500 14500 6000 14500
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5FA7E2A1
+P 16750 6250
+F 0 "#PWR?" H 16750 6000 50  0001 C CNN
+F 1 "GNDREF" H 16755 6077 50  0000 C CNN
+F 2 "" H 16750 6250 50  0001 C CNN
+F 3 "" H 16750 6250 50  0001 C CNN
+	1    16750 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16800 6050 16750 6050
+Wire Wire Line
+	16750 6050 16750 6250
+Connection ~ 16000 6150
+Wire Wire Line
+	16800 6150 16700 6150
+$EndSCHEMATC
