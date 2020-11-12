@@ -1,0 +1,117 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 06033C104KAT2A
+D Capacitor MLCC 0603 100nF 25V AVX 0603 Standard 100nF Ceramic Multilayer Capacitor, 25 V dc, +125C, X7R Dielectric, +/-10% SMD
+$ENDCMP
+#
+$CMP 06035A220JAT4A
+D AVX - 06035A220JAT4A - CERAMIC CAPACITOR 22PF 50V, C0G, 5%, 0603, FULL REEL
+F https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf
+$ENDCMP
+#
+$CMP 0603ZC105KAT2A
+D AVX - 0603ZC105KAT2A - CAP, MLCC, X7R, 1UF, 10V, 0603
+F https://componentsearchengine.com/Datasheets/1/0603ZC105KAT2A.pdf
+$ENDCMP
+#
+$CMP 0603ZD106KAT2A
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X5R 0603 10%TOL
+F https://componentsearchengine.com/Datasheets/1/0603ZD106KAT2A.pdf
+$ENDCMP
+#
+$CMP 08053C104KAT2A
+D 0805 X7R ceramic capacitor, 25V 0.1uF AVX 0805 Standard 100nF Ceramic Multilayer Capacitor, 25 V dc X7R Dielectric  /-10% SMD
+F http://datasheets.avx.com/X7RDielectric.pdf
+$ENDCMP
+#
+$CMP 1206ZC106KAT2A
+D AVX - 1206ZC106KAT2A - CAPACITOR, MLCC, X7R, 10UF, 10V, 1206
+F https://componentsearchengine.com/Datasheets/1/1206ZC106KAT2A.pdf
+$ENDCMP
+#
+$CMP 25TRV1000M12.5X13.5
+D RUBYCON - 25TRV1000M12.5X13.5 - CAP, 1000F, 25V, SMD
+F http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_TRV.pdf
+$ENDCMP
+#
+$CMP 74LV1T04GVH
+D Inverters INVERTERS
+F https://www.mouser.co.uk/datasheet/2/916/74LV1T04-1319504.pdf
+$ENDCMP
+#
+$CMP ABS07-166-32.768KHZ-T
+D Crystal IOT 32.786KHz XTAL 10ppm
+F https://abracon.com/datasheets/ABS07-166-32.768kHz-T.pdf
+$ENDCMP
+#
+$CMP APT1608LSECK_J3-PRV
+D Standard LEDs - SMD 1.6X0.8MM RED LOW CURRENT SMD
+F http://www.kingbrightusa.com/images/catalog/SPEC/APT1608LSECK-J3-PRV.pdf
+$ENDCMP
+#
+$CMP ATSAMD21G18A-AU
+D ATMEL - ATSAMD21G18A-AU - MCU, 32BIT, CORTEX-M0+, 48MHZ, TQFP-48
+$ENDCMP
+#
+$CMP BAP50-02,115
+D BAP50-02 PIN diode,50mA,50V
+F http://www.nxp.com/docs/en/data-sheet/BAP50-02_N.pdf
+$ENDCMP
+#
+$CMP ERJ-3EKF1003V
+D Thick Film Resistors - SMD 0603 100Kohms 1% Tol
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C86.pdf
+$ENDCMP
+#
+$CMP ERJ-3EKF7500V
+D Thick Film Resistors - SMD 0603 750ohms 1% AEC-Q200
+F https://componentsearchengine.com/Datasheets/1/ERJ-3EKF7500V.pdf
+$ENDCMP
+#
+$CMP ERJ-3GEYJ203V
+D Thick Film Resistors - SMD 0603 20Kohms 5% AEC-Q200
+F https://componentsearchengine.com/Datasheets/1/ERJ-3GEYJ203V.pdf
+$ENDCMP
+#
+$CMP ERJ-3GEYJ301V
+D RESISTOR, 0603 300 Ohms +/- 5% 0.1W
+$ENDCMP
+#
+$CMP ERJ-3GEYJ472V
+D Thick Film Resistors - SMD 0603 4.7Kohms 5% AEC-Q200
+$ENDCMP
+#
+$CMP LTV-207
+D Transistor Output Optocouplers SO8 100-200% 3.75KV 2CH Optocoupler
+$ENDCMP
+#
+$CMP MAX4617CUE+
+D MAXIM INTEGRATED PRODUCTS - MAX4617CUE+ - MULTIPLEXER, 8X1, 10OHM RON, 16TSSOP
+F https://datasheets.maximintegrated.com/en/ds/MAX4617-MAX4619.pdf
+$ENDCMP
+#
+$CMP MBR120VLSFT3G
+D ON SEMICONDUCTOR - MBR120VLSFT3G - SCHOTTKY RECT, 1A, 20V, SOD123
+F http://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP RT0603BRD0750KL
+D Thin Film Resistors - SMD 50K ohm 0.1% 25 ppm High-Precision
+$ENDCMP
+#
+$CMP SPX3819M5-L-3-3_TR
+D LDO Voltage Regulators 500mA LOW NOISE LDO
+F https://www.exar.com/ds/spx3819.pdf
+$ENDCMP
+#
+$CMP UJ2-MIBH2-4-SMT-TR
+D CONN RCPT USB2.0 MICRO B SMD R/A
+F https://www.cui.com/product/resource/digikeypdf/uj2-mibh2-4-smt.pdf
+$ENDCMP
+#
+#End Doc Library
